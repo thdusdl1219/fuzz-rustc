@@ -6,3 +6,4 @@ rust
 coverage/
 corpus-*
 crash-*
+coverage/
