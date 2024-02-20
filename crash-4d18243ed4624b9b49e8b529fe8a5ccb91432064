@@ -1,0 +1,13 @@
+10h 9m 5s
+thread 'rustc' panicked at rust/compiler/rustc_errors/src/emitter.rs:1287:80:
+called `Result::unwrap()` on an `Err` value: failed while formatting fluent string `parse_help_set_edition_cargo`:
+the fluent string has an argument `edition` that was not found.
+help: no arguments are available
+
+note: run with `RUST_BACKTRACE=1` environment variable to display a backtrace
+==2840977== ERROR: libFuzzer: deadly signal
+NOTE: libFuzzer has rudimentary signal handlers.
+      Combine libFuzzer with AddressSanitizer or similar for better crash reports.
+SUMMARY: libFuzzer: deadly signal
+MS: 4 ShuffleBytes-ChangeByte-ShuffleBytes-CrossOver-; base unit: d6770afba1baf43950dd4a7241d7bece42831adb
+artifact_prefix='artifacts/'; Test unit written to artifacts/crash-4d18243ed4624b9b49e8b529fe8a5ccb91432064
