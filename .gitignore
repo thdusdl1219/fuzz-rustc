@@ -4,3 +4,5 @@ corpus
 artifacts
 rust
 coverage/
+corpus-*
+crash-*
