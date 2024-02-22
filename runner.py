@@ -24,6 +24,7 @@ def main():
         gap = (datetime.datetime.now() - current_datetime)
         outs, errs = run_with_timeout("./run-fuzzer.sh", MAX_TIMEOUT - gap.seconds)
         with open(f"output_{datetime.datetime.now()}.log", "w") as f:
+            f.write(outs.decode("utf-8") + "\n\n\n")
             f.write(errs.decode("utf-8"))
 
 main()
