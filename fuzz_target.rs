@@ -3,11 +3,50 @@
 #![feature(core_io_borrowed_buf)]
 #![no_main]
 #[macro_use] extern crate libfuzzer_sys;
+use rustc_interface::interface;
+use rustc_errors::{DiagCtxt, Diagnostic};
+use rustc_errors::fallback_fluent_bundle;
+use rustc_span::{
+    source_map::{FilePathMapping, SourceMap}};
+use rustc_data_structures::sync::{Lrc};
+use rustc_errors::emitter::{Emitter};
+use rustc_errors::translation::Translate;
+use rustc_errors::LazyFallbackBundle;
+use rustc_driver::DEFAULT_LOCALE_RESOURCES;
 
 /// rustc_driver::Callbacks object that stops before codegen.
 pub struct FuzzCallbacks;
 
+/// Emitter which discards every error.
+struct SilentEmitter{fb: LazyFallbackBundle}
+
+impl Translate for SilentEmitter {
+    fn fluent_bundle(&self) -> Option<&Lrc<rustc_errors::FluentBundle>> {
+        None
+    }
+
+    fn fallback_fluent_bundle(&self) -> &rustc_errors::FluentBundle {
+        &self.fb
+    }
+}
+
+impl Emitter for SilentEmitter {
+    fn source_map(&self) -> Option<&Lrc<SourceMap>> {
+        None
+    }
+
+    fn emit_diagnostic(&mut self, _db: &Diagnostic) {}
+}
+
 impl rustc_driver::Callbacks for FuzzCallbacks {
+    fn config(&mut self, config: &mut interface::Config) {
+
+        config.parse_sess_created = Some(Box::new(move |parse_sess| {
+         let fallback_bundle =
+             rustc_errors::fallback_fluent_bundle(DEFAULT_LOCALE_RESOURCES.to_vec(), false);
+            parse_sess.dcx = DiagCtxt::with_emitter(Box::new(SilentEmitter {fb: fallback_bundle}))
+        }));
+    }
     fn after_analysis<'tcx>(&mut self,
                             _compiler: &rustc_interface::interface::Compiler,
                             _queries: &'tcx rustc_interface::Queries<'tcx>,) -> rustc_driver::Compilation {
@@ -116,9 +155,10 @@ pub fn main_fuzz(input: Vec<u8>) {
               "-o".to_string(),
               "dummy_output_file".to_string(),
               "--edition".to_string(),
-              "2018".to_string(),
+              "2021".to_string(),
               "-L".to_string(),
-              env!("FUZZ_RUSTC_LIBRARY_DIR").to_string()];
+              env!("FUZZ_RUSTC_LIBRARY_DIR").to_string(),
+        ];
         let mut run_compiler = rustc_driver::RunCompiler::new(args, &mut callbacks);
         run_compiler.set_file_loader(Some(file_loader));
         run_compiler.set_make_codegen_backend(

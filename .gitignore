@@ -6,3 +6,4 @@ rust
 coverage/
 corpus-*
 coverage/
+fuzz-*.log

@@ -21,7 +21,7 @@ export RUSTFLAGS="$RUSTFLAGS -Z force-unstable-if-unmarked"
 # - enable debug assertions
 export RUSTFLAGS="$RUSTFLAGS -C debug-assertions=on"
 
-#export RUSTFLAGS="$RUSTFLAGS -Z sanitizer=address"
+export RUSTFLAGS="$RUSTFLAGS -Z sanitizer=address"
 
 # Create seed directory if it does not exist. Add example files here.
 mkdir -p seeds
