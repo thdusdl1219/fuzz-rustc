@@ -48,7 +48,7 @@ def run_with_timeout(cmd, timeout):
                 ml = map(lambda d: os.path.join("/tmp", d), fl)
                 libfuzzer_dir = max(ml, key = os.path.getctime)
                 fl = filter(lambda f: f.endswith(".log"), os.listdir(f"{libfuzzer_dir}"))
-                ml = min(map(lambda f: int(f), fl))
+                ml = min(map(lambda f: int(f.split(".")[0]), fl))
                 log_file = os.path.join(libfuzzer_dir, str(ml)+".log")
                 with open(log_file, "r") as f:
                     data = f.read()
