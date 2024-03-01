@@ -49,11 +49,11 @@ def run_with_timeout(cmd, timeout):
                 libfuzzer_dir = max(ml, key = os.path.getctime)
                 fl = filter(lambda f: f.endswith(".log"), os.listdir(f"{libfuzzer_dir}"))
                 ml = map(lambda f: os.path.join(f"{libfuzzer_dir}", f), fl)
-                log_file = max(ml, key = os.path.getctime)
+                log_file = min(ml)
+                with open(log_file, "r") as f:
+                    data = f.read()
             except:
                 continue
-            with open(log_file, "r") as f:
-                data = f.read()
         
         print(log_file)
         # print(data)
@@ -87,7 +87,7 @@ def main():
 
     while datetime.datetime.now() - current_datetime < datetime.timedelta(hours=24):
         gap = (datetime.datetime.now() - current_datetime)
-        outs = run_with_timeout("./run-fuzzer.sh -fork=30 -rss_limit_mb=10240", MAX_TIMEOUT - gap.seconds)
+        outs = run_with_timeout("./run-fuzzer.sh -timeout=0 -fork=30 -rss_limit_mb=10240 -detect_leaks=0", MAX_TIMEOUT - gap.seconds)
         with open(f"output_{datetime.datetime.now()}.log", "w") as f:
             f.write("\n".join(outs))
 

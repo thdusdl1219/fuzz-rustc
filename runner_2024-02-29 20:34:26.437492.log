@@ -1,0 +1,4 @@
+2024-02-29 20:34:56.467272: [+] changed: 1.0 #27	NEW    cov: 27490 ft: 29368 corp: 23/65b lim: 4 exec/s: 27 rss: 391Mb L: 4/4 MS: 2 ShuffleBytes-CrossOver-
+2024-02-29 20:35:26.498324: [+] changed: 0.022508267254560323 #722	NEW    cov: 28123 ft: 31174 corp: 131/397b lim: 4 exec/s: 18 rss: 743Mb L: 4/4 MS: 1 ChangeByte-
+2024-02-29 20:35:56.526434: [-] changed: -0.018543334178407155 #169	NEW    cov: 27611 ft: 30203 corp: 61/214b lim: 4 exec/s: 13 rss: 509Mb L: 2/4 MS: 1 ChangeByte-
+2024-02-29 20:36:26.554559: [+] changed: 0.025207413945278024 #804	NEW    cov: 28325 ft: 32155 corp: 144/468b lim: 4 exec/s: 22 rss: 744Mb L: 4/4 MS: 2 CrossOver-ChangeBit-

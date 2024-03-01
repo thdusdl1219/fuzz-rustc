@@ -74,7 +74,7 @@ export RUSTC_INSTALL_BINDIR=/tmp/rustc_install_bindir
 
 # The --target flag is important because it prevents build.rs scripts from being built with
 # the above-specified RUSTFLAGS.
-cargo run --release --verbose --target $TARGET --bin "fuzz_target" -- -artifact_prefix=artifacts/ ${@:1} `pwd`/corpus `pwd`/seeds
+cargo run --release --verbose --target $TARGET --bin "fuzz_target" -- -artifact_prefix=artifacts/ ${@:1} `pwd`/corpus `pwd`/seeds 2>/dev/null
 
 # An invocation like this can minimize a crash:
 #cargo run --release --verbose --target $TARGET --bin "fuzz_target" -- -minimize_crash=1 ${@:1}
