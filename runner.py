@@ -27,22 +27,35 @@ def get_res(line):
 
 # run a new process with timeout
 def run_with_timeout(cmd, timeout):
+    print(f"Running {cmd}")
     start_time = datetime.datetime.now()
     is_jobs = True if "-jobs" in cmd else False
-    proc = subprocess.Popen(cmd, shell=True, stdout=subprocess.PIPE, stderr=subprocess.PIPE)
+    proc = subprocess.Popen(cmd, shell=True)
     outs = []
 
     off = 0
     old_cov = 0
     while proc.poll() == None:
-        # time.sleep(30)
+        time.sleep(30)
         if is_jobs:
             with open("./fuzz-0.log", "r") as f:
                 f.seek(off)
                 data = f.read()
                 off += len(data)
         else:
-            data = proc.stderr.read1().decode("utf-8")
+            try:
+                fl = filter(lambda d: d.startswith("libFuzzerTemp.FuzzWithFork"), os.listdir("/tmp"))
+                ml = map(lambda d: os.path.join("/tmp", d), fl)
+                libfuzzer_dir = max(ml, key = os.path.getctime)
+                fl = filter(lambda f: f.endswith(".log"), os.listdir(f"{libfuzzer_dir}"))
+                ml = map(lambda f: os.path.join(f"{libfuzzer_dir}", f), fl)
+                log_file = max(ml, key = os.path.getctime)
+            except:
+                continue
+            with open(log_file, "r") as f:
+                data = f.read()
+        
+        print(log_file)
         # print(data)
         for line in data.split("\n")[::-1]:
             res = get_res(line)
