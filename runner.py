@@ -44,19 +44,22 @@ def run_with_timeout(cmd, timeout):
                 off += len(data)
         else:
             try:
-                fl = filter(lambda d: d.startswith("libFuzzerTemp.FuzzWithFork"), os.listdir("/tmp"))
-                ml = map(lambda d: os.path.join("/tmp", d), fl)
-                libfuzzer_dir = max(ml, key = os.path.getctime)
-                fl = filter(lambda f: f.endswith(".log"), os.listdir(f"{libfuzzer_dir}"))
-                ml = min(map(lambda f: int(f.split(".")[0]), fl))
-                log_file = os.path.join(libfuzzer_dir, str(ml)+".log")
+                # fl = filter(lambda d: d.startswith("libFuzzerTemp.FuzzWithFork"), os.listdir("/tmp"))
+                # ml = map(lambda d: os.path.join("/tmp", d), fl)
+                # libfuzzer_dir = max(ml, key = os.path.getctime)
+                # fl = filter(lambda f: f.endswith(".log"), os.listdir(f"{libfuzzer_dir}"))
+                # ml = min(map(lambda f: int(f.split(".")[0]), fl))
+                # log_file = os.path.join(libfuzzer_dir, str(ml)+".log")
+                # with open(log_file, "r") as f:
+                    # data = f.read()
+                log_file = "./fuzz.log"
                 with open(log_file, "r") as f:
+                    f.seek(off)
                     data = f.read()
+                    off += len(data)
             except:
                 continue
         
-        print(log_file)
-        # print(data)
         for line in data.split("\n")[::-1]:
             res = get_res(line)
             if res:
