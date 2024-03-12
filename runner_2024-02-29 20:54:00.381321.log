@@ -1,0 +1,51 @@
+2024-02-29 20:54:30.411084: [+] changed: 1.0 #274	DONE   cov: 28008 ft: 31116 corp: 88/308b lim: 4 exec/s: 14 rss: 598Mb
+2024-02-29 20:55:00.442092: [+] changed: 0.010982026201490165 #926	NEW    cov: 28319 ft: 31747 corp: 153/521b lim: 4 exec/s: 23 rss: 751Mb L: 4/4 MS: 1 CopyPart-
+2024-02-29 20:55:30.470202: [-] changed: 0.0007410021171489062 #1605	NEW    cov: 28340 ft: 32178 corp: 188/599b lim: 4 exec/s: 30 rss: 756Mb L: 3/4 MS: 1 CopyPart-
+2024-02-29 20:56:00.501704: [-] changed: 0.007390284053097965 #1382	NEW    cov: 28551 ft: 32338 corp: 174/574b lim: 4 exec/s: 21 rss: 759Mb L: 3/4 MS: 2 ChangeASCIIInt-CopyPart-
+2024-02-29 20:56:30.533216: [-] changed: -0.0026337968815844924 #1746	REDUCE cov: 28476 ft: 32436 corp: 178/604b lim: 4 exec/s: 24 rss: 758Mb L: 3/4 MS: 1 EraseBytes-
+2024-02-29 20:57:00.562178: [-] changed: 0.009047884187082406 #2425	REDUCE cov: 28736 ft: 32644 corp: 204/682b lim: 4 exec/s: 30 rss: 762Mb L: 3/4 MS: 3 ShuffleBytes-CrossOver-EraseBytes-
+2024-02-29 20:57:30.590003: [-] changed: -0.0026517794836008373 #2685	NEW    cov: 28660 ft: 32533 corp: 217/725b lim: 4 exec/s: 29 rss: 765Mb L: 4/4 MS: 4 ChangeBinInt-ChangeByte-CrossOver-CrossOver-
+2024-02-29 20:58:00.618094: [-] changed: 0.008990318118948824 #2797	DONE   cov: 28920 ft: 33486 corp: 179/593b lim: 4 exec/s: 27 rss: 763Mb
+2024-02-29 20:58:30.646253: [-] changed: 0.008740359897172237 #3191	NEW    cov: 29175 ft: 33439 corp: 230/759b lim: 4 exec/s: 32 rss: 762Mb L: 4/4 MS: 3 ChangeBit-CopyPart-CopyPart-
+2024-02-29 20:59:00.674090: [+] changed: 0.02333288698446706 #3042	NEW    cov: 29872 ft: 33912 corp: 236/795b lim: 4 exec/s: 26 rss: 768Mb L: 4/4 MS: 2 EraseBytes-InsertByte-
+2024-02-29 20:59:30.701960: [-] changed: -0.002079838980207984 #3820	NEW    cov: 29810 ft: 34287 corp: 242/797b lim: 4 exec/s: 31 rss: 765Mb L: 3/4 MS: 1 EraseBytes-
+2024-02-29 21:00:00.730306: [-] changed: -0.004583136752712813 #3706	NEW    cov: 29674 ft: 33777 corp: 246/829b lim: 4 exec/s: 29 rss: 768Mb L: 4/4 MS: 2 ChangeBit-ShuffleBytes-
+2024-02-29 21:00:30.762310: [+] changed: 0.016016181980966278 #3941	NEW    cov: 30157 ft: 34290 corp: 250/860b lim: 4 exec/s: 29 rss: 769Mb L: 2/4 MS: 3 EraseBytes-ChangeBit-CopyPart-
+2024-02-29 21:01:00.790139: [-] changed: -0.03493599643090017 #4745	REDUCE cov: 29139 ft: 33635 corp: 289/1016b lim: 6 exec/s: 34 rss: 772Mb L: 5/6 MS: 2 CrossOver-PersAutoDict- DE: "2018"-
+2024-02-29 21:01:30.818089: [+] changed: 0.02532111319240032 #5241	NEW    cov: 29896 ft: 34046 corp: 277/936b lim: 4 exec/s: 36 rss: 769Mb L: 4/4 MS: 1 ChangeBit-
+2024-02-29 21:02:00.846172: [-] changed: 0.005885678183087819 #5366	REDUCE cov: 30073 ft: 35751 corp: 307/1376b lim: 6 exec/s: 35 rss: 770Mb L: 3/6 MS: 2 PersAutoDict-CrossOver- DE: "\022\000"-
+2024-02-29 21:02:30.874027: [-] changed: -0.012422569350929167 #6025	NEW    cov: 29704 ft: 34846 corp: 349/1561b lim: 6 exec/s: 38 rss: 766Mb L: 6/6 MS: 3 CopyPart-CopyPart-ShuffleBytes-
+2024-02-29 21:03:00.905892: [-] changed: -0.0056198794772834995 #6988	NEW    cov: 29538 ft: 35498 corp: 395/1833b lim: 6 exec/s: 43 rss: 771Mb L: 4/6 MS: 1 CopyPart-
+2024-02-29 21:03:30.937974: [+] changed: 0.01938782285372817 #6176	NEW    cov: 30122 ft: 35269 corp: 291/990b lim: 4 exec/s: 37 rss: 770Mb L: 4/4 MS: 1 CrossOver-
+2024-02-29 21:04:00.969911: [-] changed: -0.024488130059179648 #7478	REDUCE cov: 29402 ft: 34757 corp: 387/1752b lim: 6 exec/s: 43 rss: 770Mb L: 3/6 MS: 1 EraseBytes-
+2024-02-29 21:04:30.998052: [+] changed: 0.027936654874863624 #6576	NEW    cov: 30247 ft: 35807 corp: 372/1738b lim: 6 exec/s: 38 rss: 771Mb L: 6/6 MS: 5 EraseBytes-CopyPart-ChangeBit-PersAutoDict-ChangeByte- DE: "\357\273\277"-
+2024-02-29 21:05:01.026076: [-] changed: -0.005618724649245296 #8318	REDUCE cov: 30078 ft: 35298 corp: 369/1680b lim: 6 exec/s: 46 rss: 771Mb L: 3/6 MS: 1 EraseBytes-
+2024-02-29 21:05:31.054212: [+] changed: 0.02537182852143482 #7732	NEW    cov: 30861 ft: 36970 corp: 412/2074b lim: 8 exec/s: 41 rss: 770Mb L: 8/8 MS: 5 ChangeByte-EraseBytes-ChangeBinInt-CopyPart-PersAutoDict- DE: "\357\273\277"-
+2024-02-29 21:06:01.082247: [-] changed: -0.0019805194805194806 #7456	NEW    cov: 30800 ft: 37634 corp: 432/2311b lim: 8 exec/s: 39 rss: 767Mb L: 6/8 MS: 1 CrossOver-
+2024-02-29 21:06:31.114170: [-] changed: -0.016032196344923137 #7667	REDUCE cov: 30314 ft: 36230 corp: 369/1755b lim: 8 exec/s: 39 rss: 774Mb L: 3/8 MS: 1 EraseBytes-
+2024-02-29 21:07:01.142809: [+] changed: 0.011510744448429908 #7690	NEW    cov: 30667 ft: 37154 corp: 349/1647b lim: 6 exec/s: 38 rss: 773Mb L: 6/6 MS: 1 ChangeBinInt-
+2024-02-29 21:07:31.173982: [+] changed: 0.015663617396886535 #9132	NEW    cov: 31155 ft: 37743 corp: 425/2009b lim: 6 exec/s: 46 rss: 770Mb L: 5/6 MS: 4 ShuffleBytes-ChangeBit-CopyPart-ShuffleBytes-
+2024-02-29 21:08:01.202208: [-] changed: -0.015681032796505182 #8206	DONE   cov: 30674 ft: 37075 corp: 430/2228b lim: 8 exec/s: 39 rss: 773Mb
+2024-02-29 21:08:31.230173: [-] changed: -0.017953738426310026 #6926	NEW    cov: 30133 ft: 36075 corp: 362/1715b lim: 6 exec/s: 34 rss: 771Mb L: 5/6 MS: 2 InsertByte-CopyPart-
+2024-02-29 21:09:01.258051: [+] changed: 0.01840510782461398 #7554	NEW    cov: 30698 ft: 37781 corp: 456/2797b lim: 8 exec/s: 36 rss: 776Mb L: 5/8 MS: 2 ChangeByte-EraseBytes-
+2024-02-29 21:09:31.286039: [-] changed: 0.007340339531123686 #7406	NEW    cov: 30925 ft: 37790 corp: 471/2949b lim: 8 exec/s: 34 rss: 776Mb L: 8/8 MS: 3 PersAutoDict-CopyPart-CrossOver- DE: "test"-
+2024-02-29 21:10:01.314030: [-] changed: 0.009702830792878186 #9734	NEW    cov: 31228 ft: 41307 corp: 456/2870b lim: 8 exec/s: 45 rss: 771Mb L: 8/8 MS: 1 ChangeBit-
+2024-02-29 21:10:31.342187: [-] changed: -0.014192458835373973 #10102	NEW    cov: 30791 ft: 38067 corp: 496/3053b lim: 8 exec/s: 46 rss: 773Mb L: 6/8 MS: 3 InsertByte-EraseBytes-CopyPart-
+2024-02-29 21:11:01.369992: [-] changed: -0.0009101843123232455 #9937	REDUCE cov: 30763 ft: 38217 corp: 516/3218b lim: 8 exec/s: 44 rss: 774Mb L: 6/8 MS: 1 EraseBytes-
+2024-02-29 21:11:31.398219: [-] changed: 0.006876291322314049 #8880	DONE   cov: 30976 ft: 38104 corp: 511/3176b lim: 8 exec/s: 37 rss: 774Mb
+2024-02-29 21:12:01.426030: [-] changed: 0.00813320525136087 #8784	NEW    cov: 31230 ft: 38778 corp: 472/2902b lim: 8 exec/s: 37 rss: 769Mb L: 8/8 MS: 4 CrossOver-ShuffleBytes-CopyPart-CopyPart-
+2024-02-29 21:12:31.453901: [-] changed: -0.019056320563858253 #7234	NEW    cov: 30646 ft: 37946 corp: 457/2800b lim: 8 exec/s: 31 rss: 776Mb L: 8/8 MS: 1 CrossOver-
+2024-02-29 21:13:01.481871: [+] changed: 0.04532569078844896 #8955	REDUCE cov: 32101 ft: 41665 corp: 479/3010b lim: 8 exec/s: 37 rss: 778Mb L: 5/8 MS: 4 CrossOver-PersAutoDict-ShuffleBytes-PersAutoDict- DE: "f80"-"#!"-
+2024-02-29 21:13:31.510309: [-] changed: -0.02884522931957309 #10719	REDUCE cov: 31201 ft: 39445 corp: 518/3261b lim: 8 exec/s: 43 rss: 777Mb L: 2/8 MS: 1 EraseBytes-
+2024-02-29 21:14:01.542191: [-] changed: -0.0025383972752393803 #10961	REDUCE cov: 31122 ft: 39010 corp: 509/3249b lim: 8 exec/s: 44 rss: 778Mb L: 6/8 MS: 1 EraseBytes-
+2024-02-29 21:14:31.574167: [-] changed: 0.0033624747814391394 #11381	NEW    cov: 31227 ft: 39683 corp: 539/3414b lim: 8 exec/s: 45 rss: 778Mb L: 6/8 MS: 1 ShuffleBytes-
+2024-02-29 21:15:01.606155: [+] changed: 0.011428390528048626 #9846	NEW    cov: 31588 ft: 39568 corp: 473/2998b lim: 8 exec/s: 39 rss: 774Mb L: 8/8 MS: 1 CrossOver-
+2024-02-29 21:15:31.638100: [-] changed: 0.0006327512022272843 #9956	DONE   cov: 31608 ft: 40967 corp: 518/3376b lim: 8 exec/s: 38 rss: 776Mb
+2024-02-29 21:16:01.666317: [-] changed: -0.02307816798834763 #9485	NEW    cov: 30895 ft: 39980 corp: 545/4375b lim: 11 exec/s: 36 rss: 773Mb L: 9/11 MS: 5 ChangeASCIIInt-InsertByte-ChangeASCIIInt-EraseBytes-CMP- DE: "#!"-
+2024-02-29 21:16:31.698641: [+] changed: 0.016364736222101946 #9641	NEW    cov: 31409 ft: 40868 corp: 563/4594b lim: 11 exec/s: 36 rss: 775Mb L: 10/11 MS: 3 ShuffleBytes-EraseBytes-CopyPart-
+2024-02-29 21:17:01.730248: [-] changed: -0.013258919930318086 #11004	REDUCE cov: 30998 ft: 40197 corp: 560/4521b lim: 11 exec/s: 42 rss: 775Mb L: 9/11 MS: 1 EraseBytes-
+2024-02-29 21:17:31.762601: [-] changed: -0.003626238425176455 #11036	DONE   cov: 30886 ft: 39311 corp: 553/4382b lim: 11 exec/s: 40 rss: 774Mb
+2024-02-29 21:18:01.794260: [-] changed: -0.005141890132777922 #9618	NEW    cov: 30728 ft: 38616 corp: 477/3057b lim: 8 exec/s: 35 rss: 775Mb L: 8/8 MS: 2 CrossOver-ChangeBit-
+2024-02-29 21:18:31.827042: [+] changed: 0.038337558288736584 #9437	NEW    cov: 31953 ft: 42689 corp: 530/3563b lim: 9 exec/s: 33 rss: 774Mb L: 7/9 MS: 1 CopyPart-
+2024-02-29 21:19:01.858276: [-] changed: -0.012644989541737973 #9960	REDUCE cov: 31554 ft: 39573 corp: 558/4499b lim: 11 exec/s: 36 rss: 775Mb L: 6/11 MS: 1 EraseBytes-
+2024-02-29 21:19:31.890052: [+] changed: 0.017774319066147858 #13296	REDUCE cov: 32125 ft: 41029 corp: 532/3351b lim: 8 exec/s: 46 rss: 782Mb L: 8/8 MS: 5 ChangeBit-EraseBytes-CMP-InsertRepeatedBytes-CMP- DE: "\225\003\000\000"-"extern"-

@@ -7,7 +7,7 @@ import sys
 import os
 import signal
 
-MAX_TIMEOUT = 6 * 60 * 60
+MAX_TIMEOUT = 24 * 60 * 60
 logger = logging.getLogger(__name__)
 stdout_handler = logging.StreamHandler(sys.stdout)
 file_handler = logging.FileHandler(f'runner_{datetime.datetime.now()}.log')

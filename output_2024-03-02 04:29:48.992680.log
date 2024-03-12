@@ -1,0 +1,299 @@
+  NEW_FUNC: 0x55f08273fb80 in _$LT$rustc_lint..early..EarlyContextAndPass$LT$T$GT$$u20$as$u20$rustc_ast..visit..Visitor$GT$::visit_generic_arg::h546d4002781508da (/home/soyeon/llm-rust/fuzz-rustc/target/x86_64-unknown-linux-gnu/release/fuzz_target+0xa3d0b80) (BuildId: 126b63024afe38292f0f3eb1564f13953796f655)
+  NEW_FUNC: 0x55f08273fbd0 in _$LT$rustc_lint..early..EarlyContextAndPass$LT$T$GT$$u20$as$u20$rustc_ast..visit..Visitor$GT$::visit_generic_arg::hd7644bca2f0689e5 (/home/soyeon/llm-rust/fuzz-rustc/target/x86_64-unknown-linux-gnu/release/fuzz_target+0xa3d0bd0) (BuildId: 126b63024afe38292f0f3eb1564f13953796f655)
+  NEW_FUNC: 0x55f08278bed0 in rustc_ast::visit::walk_generic_arg::h0fe334e20b50a026 (/home/soyeon/llm-rust/fuzz-rustc/target/x86_64-unknown-linux-gnu/release/fuzz_target+0xa41ced0) (BuildId: 126b63024afe38292f0f3eb1564f13953796f655)
+  NEW_FUNC: 0x55f08278bff0 in rustc_ast::visit::walk_generic_arg::h93388a7878339953 (/home/soyeon/llm-rust/fuzz-rustc/target/x86_64-unknown-linux-gnu/release/fuzz_target+0xa41cff0) (BuildId: 126b63024afe38292f0f3eb1564f13953796f655)
+  NEW_FUNC: 0x55f083cbb0b0 in _$LT$alloc..vec..Vec$LT$T$C$A$GT$$u20$as$u20$core..ops..drop..Drop$GT$::drop::hee539f941200a87e (/home/soyeon/llm-rust/fuzz-rustc/target/x86_64-unknown-linux-gnu/release/fuzz_target+0xb94c0b0) (BuildId: 126b63024afe38292f0f3eb1564f13953796f655)
+  NEW_FUNC: 0x55f083dcbdc0 in _$LT$alloc..raw_vec..RawVec$LT$T$C$A$GT$$u20$as$u20$core..ops..drop..Drop$GT$::drop::hb349d5a212c7619f (/home/soyeon/llm-rust/fuzz-rustc/target/x86_64-unknown-linux-gnu/release/fuzz_target+0xba5cdc0) (BuildId: 126b63024afe38292f0f3eb1564f13953796f655)
+  NEW_FUNC: 0x55f085ef87f0 in rustc_ast::visit::Visitor::visit_generic_arg::hc672ff4c60e648ab (/home/soyeon/llm-rust/fuzz-rustc/target/x86_64-unknown-linux-gnu/release/fuzz_target+0xdb897f0) (BuildId: 126b63024afe38292f0f3eb1564f13953796f655)
+  NEW_FUNC: 0x55f086016fe0 in rustc_ast_lowering::path::_$LT$impl$u20$rustc_ast_lowering..LoweringContext$GT$::lower_angle_bracketed_parameter_data::h32b8e3bbc0a3cd3d rustc_ast_lowering.321c79f6e2d6ba4d-cgu.00
+  NEW_FUNC: 0x55f08607c170 in rustc_ast_lowering::LoweringContext::lower_generic_arg::h2366411813fc5496 (/home/soyeon/llm-rust/fuzz-rustc/target/x86_64-unknown-linux-gnu/release/fuzz_target+0xdd0d170) (BuildId: 126b63024afe38292f0f3eb1564f13953796f655)
+  NEW_FUNC: 0x55f0860db490 in _$LT$smallvec..SmallVec$LT$A$GT$$u20$as$u20$core..iter..traits..collect..Extend$LT$$LT$A$u20$as$u20$smallvec..Array$GT$..Item$GT$$GT$::extend::h7570a432787b6c41 (/home/soyeon/llm-rust/fuzz-rustc/target/x86_64-unknown-linux-gnu/release/fuzz_target+0xdd6c490) (BuildId: 126b63024afe38292f0f3eb1564f13953796f655)
+  NEW_FUNC: 0x55f0860fb420 in _$LT$smallvec..SmallVec$LT$A$GT$$u20$as$u20$core..iter..traits..collect..Extend$LT$$LT$A$u20$as$u20$smallvec..Array$GT$..Item$GT$$GT$::extend::hd7021f6f2a63fb38 (/home/soyeon/llm-rust/fuzz-rustc/target/x86_64-unknown-linux-gnu/release/fuzz_target+0xdd8c420) (BuildId: 126b63024afe38292f0f3eb1564f13953796f655)
+  NEW_FUNC: 0x55f086112590 in _$LT$smallvec..SmallVec$LT$A$GT$$u20$as$u20$core..ops..drop..Drop$GT$::drop::h79fdf9535695c265 (/home/soyeon/llm-rust/fuzz-rustc/target/x86_64-unknown-linux-gnu/release/fuzz_target+0xdda3590) (BuildId: 126b63024afe38292f0f3eb1564f13953796f655)
+  NEW_FUNC: 0x55f08117d6e0 in rustc_arena::outline::h9c93720a06755dc2 (/home/soyeon/llm-rust/fuzz-rustc/target/x86_64-unknown-linux-gnu/release/fuzz_target+0x8e0e6e0) (BuildId: 126b63024afe38292f0f3eb1564f13953796f655)
+  NEW_FUNC: 0x55f08619b510 in rustc_ast::visit::walk_generic_arg::h554859d8658e0332 (/home/soyeon/llm-rust/fuzz-rustc/target/x86_64-unknown-linux-gnu/release/fuzz_target+0xde2c510) (BuildId: 126b63024afe38292f0f3eb1564f13953796f655)
+  NEW_FUNC: 0x55f08621d3b0 in rustc_hir::def::Res$LT$Id$GT$::matches_ns::h82ae5cfa6554f5a7 (/home/soyeon/llm-rust/fuzz-rustc/target/x86_64-unknown-linux-gnu/release/fuzz_target+0xdeae3b0) (BuildId: 126b63024afe38292f0f3eb1564f13953796f655)
+  NEW_FUNC: 0x55f081198670 in _$LT$thin_vec..ThinVec$LT$T$GT$$u20$as$u20$core..ops..drop..Drop$GT$::drop::drop_non_singleton::hcc5a34b591451dc6 (/home/soyeon/llm-rust/fuzz-rustc/target/x86_64-unknown-linux-gnu/release/fuzz_target+0x8e29670) (BuildId: 126b63024afe38292f0f3eb1564f13953796f655)
+  NEW_FUNC: 0x55f0862e1730 in thin_vec::ThinVec$LT$T$GT$::as_slice::haf946322efa99008 (/home/soyeon/llm-rust/fuzz-rustc/target/x86_64-unknown-linux-gnu/release/fuzz_target+0xdf72730) (BuildId: 126b63024afe38292f0f3eb1564f13953796f655)
+  NEW_FUNC: 0x55f0862e2810 in _$LT$$RF$thin_vec..ThinVec$LT$T$GT$$u20$as$u20$core..iter..traits..collect..IntoIterator$GT$::into_iter::h8f77211a6568acee (/home/soyeon/llm-rust/fuzz-rustc/target/x86_64-unknown-linux-gnu/release/fuzz_target+0xdf73810) (BuildId: 126b63024afe38292f0f3eb1564f13953796f655)
+  NEW_FUNC: 0x55f0863b6730 in core::ops::function::impls::_$LT$impl$u20$core..ops..function..FnMut$LT$A$GT$$u20$for$u20$$RF$mut$u20$F$GT$::call_mut::h69285d0d64ff1dcd (/home/soyeon/llm-rust/fuzz-rustc/target/x86_64-unknown-linux-gnu/release/fuzz_target+0xe047730) (BuildId: 126b63024afe38292f0f3eb1564f13953796f655)
+  NEW_FUNC: 0x55f0863b6a60 in core::ops::function::impls::_$LT$impl$u20$core..ops..function..FnMut$LT$A$GT$$u20$for$u20$$RF$mut$u20$F$GT$::call_mut::h7e7f5c594596cf6e (/home/soyeon/llm-rust/fuzz-rustc/target/x86_64-unknown-linux-gnu/release/fuzz_target+0xe047a60) (BuildId: 126b63024afe38292f0f3eb1564f13953796f655)
+  NEW_FUNC: 0x55f086a61fa0 in rustc_ast::visit::walk_generic_arg::h08aae5a95645359e (/home/soyeon/llm-rust/fuzz-rustc/target/x86_64-unknown-linux-gnu/release/fuzz_target+0xe6f2fa0) (BuildId: 126b63024afe38292f0f3eb1564f13953796f655)
+  NEW_FUNC: 0x55f086a620c0 in rustc_ast::visit::walk_generic_arg::h491aca9fda6df863 (/home/soyeon/llm-rust/fuzz-rustc/target/x86_64-unknown-linux-gnu/release/fuzz_target+0xe6f30c0) (BuildId: 126b63024afe38292f0f3eb1564f13953796f655)
+  NEW_FUNC: 0x55f086a62300 in rustc_ast::visit::walk_generic_arg::h5ab9e0a8b159ebc1 (/home/soyeon/llm-rust/fuzz-rustc/target/x86_64-unknown-linux-gnu/release/fuzz_target+0xe6f3300) (BuildId: 126b63024afe38292f0f3eb1564f13953796f655)
+  NEW_FUNC: 0x55f086a62540 in rustc_ast::visit::walk_generic_arg::hdeef994558d1da73 (/home/soyeon/llm-rust/fuzz-rustc/target/x86_64-unknown-linux-gnu/release/fuzz_target+0xe6f3540) (BuildId: 126b63024afe38292f0f3eb1564f13953796f655)
+  NEW_FUNC: 0x55f086a62780 in rustc_ast::visit::walk_generic_arg::hfcbbf2b5145936d0 (/home/soyeon/llm-rust/fuzz-rustc/target/x86_64-unknown-linux-gnu/release/fuzz_target+0xe6f3780) (BuildId: 126b63024afe38292f0f3eb1564f13953796f655)
+  NEW_FUNC: 0x55f086a68050 in rustc_ast::visit::walk_generic_args::ha2ce6ba78b7d4ed5 (/home/soyeon/llm-rust/fuzz-rustc/target/x86_64-unknown-linux-gnu/release/fuzz_target+0xe6f9050) (BuildId: 126b63024afe38292f0f3eb1564f13953796f655)
+  NEW_FUNC: 0x55f086c088b0 in thin_vec::ThinVec$LT$T$GT$::as_slice::h5fa9b4440493122f (/home/soyeon/llm-rust/fuzz-rustc/target/x86_64-unknown-linux-gnu/release/fuzz_target+0xe8998b0) (BuildId: 126b63024afe38292f0f3eb1564f13953796f655)
+  NEW_FUNC: 0x55f086c097c0 in _$LT$$RF$thin_vec..ThinVec$LT$T$GT$$u20$as$u20$core..iter..traits..collect..IntoIterator$GT$::into_iter::h2158c6027322e3eb (/home/soyeon/llm-rust/fuzz-rustc/target/x86_64-unknown-linux-gnu/release/fuzz_target+0xe89a7c0) (BuildId: 126b63024afe38292f0f3eb1564f13953796f655)
+  NEW_FUNC: 0x55f086c6d950 in rustc_ast::visit::Visitor::visit_generic_arg::h2acb08198624b29c (/home/soyeon/llm-rust/fuzz-rustc/target/x86_64-unknown-linux-gnu/release/fuzz_target+0xe8fe950) (BuildId: 126b63024afe38292f0f3eb1564f13953796f655)
+  NEW_FUNC: 0x55f086c6d980 in rustc_ast::visit::Visitor::visit_generic_args::h2af6996de6554244 (/home/soyeon/llm-rust/fuzz-rustc/target/x86_64-unknown-linux-gnu/release/fuzz_target+0xe8fe980) (BuildId: 126b63024afe38292f0f3eb1564f13953796f655)
+  NEW_FUNC: 0x55f086ced1b0 in rustc_ast::visit::Visitor::visit_generic_arg::hb6c57e1d65a6d31d (/home/soyeon/llm-rust/fuzz-rustc/target/x86_64-unknown-linux-gnu/release/fuzz_target+0xe97e1b0) (BuildId: 126b63024afe38292f0f3eb1564f13953796f655)
+  NEW_FUNC: 0x55f086d20430 in rustc_ast::visit::Visitor::visit_generic_arg::h1942b5ebd00513df (/home/soyeon/llm-rust/fuzz-rustc/target/x86_64-unknown-linux-gnu/release/fuzz_target+0xe9b1430) (BuildId: 126b63024afe38292f0f3eb1564f13953796f655)
+  NEW_FUNC: 0x55f086d20440 in rustc_ast::visit::Visitor::visit_generic_arg::hd10537141eecb7ef (/home/soyeon/llm-rust/fuzz-rustc/target/x86_64-unknown-linux-gnu/release/fuzz_target+0xe9b1440) (BuildId: 126b63024afe38292f0f3eb1564f13953796f655)
+  NEW_FUNC: 0x55f086dc0ce0 in rustc_ast::visit::Visitor::visit_generic_arg::hc0acb3a186ac803d (/home/soyeon/llm-rust/fuzz-rustc/target/x86_64-unknown-linux-gnu/release/fuzz_target+0xea51ce0) (BuildId: 126b63024afe38292f0f3eb1564f13953796f655)
+  NEW_FUNC: 0x55f086e7e050 in _$LT$rustc_resolve..late..LateResolutionVisitor$u20$as$u20$rustc_ast..visit..Visitor$GT$::visit_generic_arg::hb0235a8e3ddf4ce7 (/home/soyeon/llm-rust/fuzz-rustc/target/x86_64-unknown-linux-gnu/release/fuzz_target+0xeb0f050) (BuildId: 126b63024afe38292f0f3eb1564f13953796f655)
+  NEW_FUNC: 0x55f086e7f460 in _$LT$rustc_resolve..late..LateResolutionVisitor$u20$as$u20$rustc_ast..visit..Visitor$GT$::visit_generic_arg::_$u7b$$u7b$closure$u7d$$u7d$::h80b8209ef44d65f7 rustc_resolve.59f7328c7e04221e-cgu.00
+  NEW_FUNC: 0x55f0870918e0 in rustc_ast::visit::walk_generic_arg::h73e3f42af8743968 (/home/soyeon/llm-rust/fuzz-rustc/target/x86_64-unknown-linux-gnu/release/fuzz_target+0xed228e0) (BuildId: 126b63024afe38292f0f3eb1564f13953796f655)
+  NEW_FUNC: 0x55f087091b20 in rustc_ast::visit::walk_generic_arg::ha0e721790a3b8c70 (/home/soyeon/llm-rust/fuzz-rustc/target/x86_64-unknown-linux-gnu/release/fuzz_target+0xed22b20) (BuildId: 126b63024afe38292f0f3eb1564f13953796f655)
+  NEW_FUNC: 0x55f0870d3570 in rustc_ast::visit::Visitor::visit_generic_arg::h065de3bdd8c6636c (/home/soyeon/llm-rust/fuzz-rustc/target/x86_64-unknown-linux-gnu/release/fuzz_target+0xed64570) (BuildId: 126b63024afe38292f0f3eb1564f13953796f655)
+  NEW_FUNC: 0x55f08711c410 in rustc_ast::visit::Visitor::visit_generic_arg::h7c83aba05f6ffcd1 (/home/soyeon/llm-rust/fuzz-rustc/target/x86_64-unknown-linux-gnu/release/fuzz_target+0xedad410) (BuildId: 126b63024afe38292f0f3eb1564f13953796f655)
+  NEW_FUNC: 0x55f087429a60 in _$LT$$RF$thin_vec..ThinVec$LT$T$GT$$u20$as$u20$core..iter..traits..collect..IntoIterator$GT$::into_iter::h367ae07e54a078d9 (/home/soyeon/llm-rust/fuzz-rustc/target/x86_64-unknown-linux-gnu/release/fuzz_target+0xf0baa60) (BuildId: 126b63024afe38292f0f3eb1564f13953796f655)
+  NEW_FUNC: 0x55f08a8cc5f0 in _$LT$rustc_lint..BuiltinCombinedEarlyLintPass$u20$as$u20$rustc_lint..passes..EarlyLintPass$GT$::check_generic_arg::h220016da8edc96d6 (/home/soyeon/llm-rust/fuzz-rustc/target/x86_64-unknown-linux-gnu/release/fuzz_target+0x1255d5f0) (BuildId: 126b63024afe38292f0f3eb1564f13953796f655)
+  NEW_FUNC: 0x55f08a9dc950 in _$LT$rustc_lint..unused..UnusedBraces$u20$as$u20$rustc_lint..passes..EarlyLintPass$GT$::check_generic_arg::h15e4baa5cdfce82b (/home/soyeon/llm-rust/fuzz-rustc/target/x86_64-unknown-linux-gnu/release/fuzz_target+0x1266d950) (BuildId: 126b63024afe38292f0f3eb1564f13953796f655)
+  NEW_FUNC: 0x55f08d709110 in rustc_ast::visit::walk_generic_arg::h2ae14979f7d7aae0 (/home/soyeon/llm-rust/fuzz-rustc/target/x86_64-unknown-linux-gnu/release/fuzz_target+0x1539a110) (BuildId: 126b63024afe38292f0f3eb1564f13953796f655)
+  NEW_FUNC: 0x55f08d709230 in rustc_ast::visit::walk_generic_arg::h44e9847444ac8b6e (/home/soyeon/llm-rust/fuzz-rustc/target/x86_64-unknown-linux-gnu/release/fuzz_target+0x1539a230) (BuildId: 126b63024afe38292f0f3eb1564f13953796f655)
+  NEW_FUNC: 0x55f08d74d110 in rustc_ast::visit::Visitor::visit_generic_arg::h654c33787428dc8c (/home/soyeon/llm-rust/fuzz-rustc/target/x86_64-unknown-linux-gnu/release/fuzz_target+0x153de110) (BuildId: 126b63024afe38292f0f3eb1564f13953796f655)
+  NEW_FUNC: 0x55f08d74d120 in rustc_ast::visit::Visitor::visit_generic_arg::h8dca54077dafc166 (/home/soyeon/llm-rust/fuzz-rustc/target/x86_64-unknown-linux-gnu/release/fuzz_target+0x153de120) (BuildId: 126b63024afe38292f0f3eb1564f13953796f655)
+  NEW_FUNC: 0x55f08db20dd0 in rustc_ast::mut_visit::MutVisitor::visit_generic_arg::hc0596c82f6c1183c (/home/soyeon/llm-rust/fuzz-rustc/target/x86_64-unknown-linux-gnu/release/fuzz_target+0x157b1dd0) (BuildId: 126b63024afe38292f0f3eb1564f13953796f655)
+  NEW_FUNC: 0x55f08db20f30 in rustc_ast::mut_visit::MutVisitor::visit_angle_bracketed_parameter_data::h5ade839a00b84550 (/home/soyeon/llm-rust/fuzz-rustc/target/x86_64-unknown-linux-gnu/release/fuzz_target+0x157b1f30) (BuildId: 126b63024afe38292f0f3eb1564f13953796f655)
+  NEW_FUNC: 0x55f08dbb9bb0 in rustc_ast::mut_visit::MutVisitor::visit_generic_arg::h1756fc2b81c05f74 (/home/soyeon/llm-rust/fuzz-rustc/target/x86_64-unknown-linux-gnu/release/fuzz_target+0x1584abb0) (BuildId: 126b63024afe38292f0f3eb1564f13953796f655)
+  NEW_FUNC: 0x55f08dbb9d10 in rustc_ast::mut_visit::MutVisitor::visit_angle_bracketed_parameter_data::h185c9015bdb80be7 (/home/soyeon/llm-rust/fuzz-rustc/target/x86_64-unknown-linux-gnu/release/fuzz_target+0x1584ad10) (BuildId: 126b63024afe38292f0f3eb1564f13953796f655)
+  NEW_FUNC: 0x55f08ded1850 in _$LT$$RF$mut$u20$thin_vec..ThinVec$LT$T$GT$$u20$as$u20$core..iter..traits..collect..IntoIterator$GT$::into_iter::h845b14f585f6af48 (/home/soyeon/llm-rust/fuzz-rustc/target/x86_64-unknown-linux-gnu/release/fuzz_target+0x15b62850) (BuildId: 126b63024afe38292f0f3eb1564f13953796f655)
+  NEW_FUNC: 0x55f08df620d0 in rustc_ast::mut_visit::noop_visit_generic_arg::h6cc2ec9fad495231 (/home/soyeon/llm-rust/fuzz-rustc/target/x86_64-unknown-linux-gnu/release/fuzz_target+0x15bf30d0) (BuildId: 126b63024afe38292f0f3eb1564f13953796f655)
+  NEW_FUNC: 0x55f08df621c0 in rustc_ast::mut_visit::noop_visit_generic_arg::h7289401943f7595d (/home/soyeon/llm-rust/fuzz-rustc/target/x86_64-unknown-linux-gnu/release/fuzz_target+0x15bf31c0) (BuildId: 126b63024afe38292f0f3eb1564f13953796f655)
+  NEW_FUNC: 0x55f08df6c090 in rustc_ast::mut_visit::noop_visit_angle_bracketed_parameter_data::h76252ca492cbbaef (/home/soyeon/llm-rust/fuzz-rustc/target/x86_64-unknown-linux-gnu/release/fuzz_target+0x15bfd090) (BuildId: 126b63024afe38292f0f3eb1564f13953796f655)
+  NEW_FUNC: 0x55f08df6c1a0 in rustc_ast::mut_visit::noop_visit_angle_bracketed_parameter_data::h9d2d9560c9ea9a0e (/home/soyeon/llm-rust/fuzz-rustc/target/x86_64-unknown-linux-gnu/release/fuzz_target+0x15bfd1a0) (BuildId: 126b63024afe38292f0f3eb1564f13953796f655)
+  NEW_FUNC: 0x55f08df6e280 in core::ops::function::impls::_$LT$impl$u20$core..ops..function..FnMut$LT$A$GT$$u20$for$u20$$RF$mut$u20$F$GT$::call_mut::h9e84b7c09e4feba4 (/home/soyeon/llm-rust/fuzz-rustc/target/x86_64-unknown-linux-gnu/release/fuzz_target+0x15bff280) (BuildId: 126b63024afe38292f0f3eb1564f13953796f655)
+  NEW_FUNC: 0x55f08dfe7d60 in rustc_ast::visit::Visitor::visit_generic_arg::hfae0b547da5bf59a (/home/soyeon/llm-rust/fuzz-rustc/target/x86_64-unknown-linux-gnu/release/fuzz_target+0x15c78d60) (BuildId: 126b63024afe38292f0f3eb1564f13953796f655)
+  NEW_FUNC: 0x55f08e050680 in core::iter::traits::iterator::Iterator::is_partitioned::h72273c2c2a4bc50f (/home/soyeon/llm-rust/fuzz-rustc/target/x86_64-unknown-linux-gnu/release/fuzz_target+0x15ce1680) (BuildId: 126b63024afe38292f0f3eb1564f13953796f655)
+  NEW_FUNC: 0x55f08e078f90 in rustc_ast::visit::walk_generic_arg::hb2c16b66191d5243 (/home/soyeon/llm-rust/fuzz-rustc/target/x86_64-unknown-linux-gnu/release/fuzz_target+0x15d09f90) (BuildId: 126b63024afe38292f0f3eb1564f13953796f655)
+  NEW_FUNC: 0x55f08e0790b0 in rustc_ast::visit::walk_generic_arg::hb72dbfbc1a2764d6 (/home/soyeon/llm-rust/fuzz-rustc/target/x86_64-unknown-linux-gnu/release/fuzz_target+0x15d0a0b0) (BuildId: 126b63024afe38292f0f3eb1564f13953796f655)
+  NEW_FUNC: 0x55f08e0ada30 in thin_vec::ThinVec$LT$T$GT$::as_slice::h4a8abe3c0fe1eea4 (/home/soyeon/llm-rust/fuzz-rustc/target/x86_64-unknown-linux-gnu/release/fuzz_target+0x15d3ea30) (BuildId: 126b63024afe38292f0f3eb1564f13953796f655)
+  NEW_FUNC: 0x55f08e0ae640 in _$LT$$RF$thin_vec..ThinVec$LT$T$GT$$u20$as$u20$core..iter..traits..collect..IntoIterator$GT$::into_iter::h9567b20706015cb8 (/home/soyeon/llm-rust/fuzz-rustc/target/x86_64-unknown-linux-gnu/release/fuzz_target+0x15d3f640) (BuildId: 126b63024afe38292f0f3eb1564f13953796f655)
+  NEW_FUNC: 0x55f08e164c90 in rustc_parse::parser::diagnostics::_$LT$impl$u20$rustc_parse..parser..Parser$GT$::recover_stmt_::h05e9e7ad98f2c3c1 rustc_parse.9219a23417ef50de-cgu.00
+  NEW_FUNC: 0x55f090302970 in rustc_ast::ast::Path::is_potential_trivial_const_arg::h5145ac4b563bf74a (/home/soyeon/llm-rust/fuzz-rustc/target/x86_64-unknown-linux-gnu/release/fuzz_target+0x17f93970) (BuildId: 126b63024afe38292f0f3eb1564f13953796f655)
+#638150: cov: 447319 ft: 362735 corp: 11569 exec/s 25 oom/timeout/crash: 0/0/0 time: 1821s job: 251 dft_time: 0
+
+#644288: cov: 447319 ft: 362735 corp: 11569 exec/s 24 oom/timeout/crash: 0/0/0 time: 1839s job: 253 dft_time: 0
+  NEW_FUNC: 0x55f08e189fa0 in rustc_parse::parser::expr::_$LT$impl$u20$rustc_parse..parser..Parser$GT$::parse_expr_res::_$u7b$$u7b$closure$u7d$$u7d$::hb004db1fd2394c70 rustc_parse.9219a23417ef50de-cgu.00
+  NEW_FUNC: 0x55f09033cae0 in thin_vec::ThinVec$LT$T$GT$::push::h8f57ea3b2f7e0e69 (/home/soyeon/llm-rust/fuzz-rustc/target/x86_64-unknown-linux-gnu/release/fuzz_target+0x17fcdae0) (BuildId: 126b63024afe38292f0f3eb1564f13953796f655)
+  NEW_FUNC: 0x55f09033ceb0 in thin_vec::ThinVec$LT$T$GT$::reserve::h27d6d1e05cc19dec (/home/soyeon/llm-rust/fuzz-rustc/target/x86_64-unknown-linux-gnu/release/fuzz_target+0x17fcdeb0) (BuildId: 126b63024afe38292f0f3eb1564f13953796f655)
+  NEW_FUNC: 0x55f09033e640 in thin_vec::header_with_capacity::hf700aa8a09ff285c rustc_ast.95f3efc783c0bf8a-cgu.01
+  NEW_FUNC: 0x55f0903e7fd0 in _$LT$core..iter..adapters..map..Map$LT$I$C$F$GT$$u20$as$u20$core..iter..traits..iterator..Iterator$GT$::try_fold::ha21a5caa2d4b21aa (/home/soyeon/llm-rust/fuzz-rustc/target/x86_64-unknown-linux-gnu/release/fuzz_target+0x18078fd0) (BuildId: 126b63024afe38292f0f3eb1564f13953796f655)
+  NEW_FUNC: 0x55f090423f80 in core::iter::adapters::try_process::h22c08aba63c70bd1 (/home/soyeon/llm-rust/fuzz-rustc/target/x86_64-unknown-linux-gnu/release/fuzz_target+0x180b4f80) (BuildId: 126b63024afe38292f0f3eb1564f13953796f655)
+#649164: cov: 447361 ft: 362738 corp: 11570 exec/s 19 oom/timeout/crash: 0/0/0 time: 1846s job: 254 dft_time: 0
+
+#653763: cov: 447361 ft: 362738 corp: 11570 exec/s 17 oom/timeout/crash: 0/0/0 time: 1861s job: 256 dft_time: 0
+#654345: cov: 447361 ft: 362738 corp: 11570 exec/s 12 oom/timeout/crash: 0/0/0 time: 1866s job: 281 dft_time: 0
+INFO: log from the inner process:
+INFO: Running with entropic power schedule (0xFF, 100).
+INFO: Seed: 2808025363
+INFO: Loaded 1 modules   (5148280 inline 8-bit counters): 5148280 [0x55928dbfd870, 0x55928e0e66e8), 
+INFO: Loaded 1 PC tables (5148280 PCs): 5148280 [0x55928e0e66e8,0x559292f74e68), 
+INFO:        0 files found in /tmp/libFuzzerTemp.FuzzWithFork203367.dir/C281
+INFO: -max_len is not provided; libFuzzer will not generate inputs larger than 4096 bytes
+INFO: seed corpus: files: 107 min: 6b max: 17b total: 1677b rss: 358Mb
+#32	pulse  cov: 53236 ft: 75907 corp: 30/376b exec/s: 8 rss: 452Mb
+#64	pulse  cov: 67889 ft: 109053 corp: 62/912b exec/s: 5 rss: 495Mb
+#108	INITED cov: 71992 ft: 124935 corp: 106/1660b exec/s: 5 rss: 543Mb
+#109	NEW    cov: 71993 ft: 124953 corp: 107/1662b lim: 17 exec/s: 5 rss: 543Mb L: 2/17 MS: 1 CrossOver-
+#110	NEW    cov: 72004 ft: 124966 corp: 108/1670b lim: 17 exec/s: 5 rss: 543Mb L: 8/17 MS: 1 ChangeBit-
+#111	NEW    cov: 72022 ft: 125008 corp: 109/1685b lim: 17 exec/s: 5 rss: 543Mb L: 15/17 MS: 1 CrossOver-
+#112	NEW    cov: 72036 ft: 125025 corp: 110/1702b lim: 17 exec/s: 5 rss: 543Mb L: 17/17 MS: 1 ChangeBit-
+#113	NEW    cov: 72040 ft: 125033 corp: 111/1713b lim: 17 exec/s: 5 rss: 543Mb L: 11/17 MS: 1 ChangeBit-
+#114	NEW    cov: 72041 ft: 125034 corp: 112/1730b lim: 17 exec/s: 5 rss: 544Mb L: 17/17 MS: 1 ShuffleBytes-
+#115	NEW    cov: 72176 ft: 125144 corp: 113/1747b lim: 17 exec/s: 5 rss: 553Mb L: 17/17 MS: 1 ChangeBit-
+#117	NEW    cov: 72176 ft: 125159 corp: 114/1764b lim: 17 exec/s: 5 rss: 553Mb L: 17/17 MS: 2 CopyPart-CMP- DE: "\033\000\000\000\000\000\000\000"-
+#118	NEW    cov: 72176 ft: 125161 corp: 115/1776b lim: 17 exec/s: 5 rss: 553Mb L: 12/17 MS: 1 InsertByte-
+#125	NEW    cov: 72176 ft: 125162 corp: 116/1784b lim: 17 exec/s: 5 rss: 555Mb L: 8/17 MS: 2 InsertByte-EraseBytes-
+#127	NEW    cov: 72177 ft: 125163 corp: 117/1801b lim: 17 exec/s: 5 rss: 555Mb L: 17/17 MS: 2 ChangeBit-CMP- DE: "\001\000\000\014"-
+#128	pulse  cov: 72177 ft: 125163 corp: 117/1801b lim: 17 exec/s: 5 rss: 556Mb
+#133	NEW    cov: 72283 ft: 125262 corp: 118/1808b lim: 17 exec/s: 6 rss: 560Mb L: 7/17 MS: 1 InsertByte-
+#136	NEW    cov: 72283 ft: 125266 corp: 119/1818b lim: 17 exec/s: 6 rss: 563Mb L: 10/17 MS: 3 ShuffleBytes-EraseBytes-ShuffleBytes-
+#137	NEW    cov: 72294 ft: 125296 corp: 120/1835b lim: 17 exec/s: 6 rss: 564Mb L: 17/17 MS: 1 ChangeBinInt-
+#143	NEW    cov: 72306 ft: 125308 corp: 121/1841b lim: 17 exec/s: 6 rss: 568Mb L: 6/17 MS: 1 EraseBytes-
+#149	NEW    cov: 72306 ft: 125309 corp: 122/1853b lim: 17 exec/s: 6 rss: 572Mb L: 12/17 MS: 1 InsertByte-
+#156	NEW    cov: 72306 ft: 125310 corp: 123/1867b lim: 17 exec/s: 7 rss: 578Mb L: 14/17 MS: 2 ShuffleBytes-CrossOver-
+#157	NEW    cov: 72306 ft: 125321 corp: 124/1884b lim: 17 exec/s: 6 rss: 579Mb L: 17/17 MS: 1 ChangeBinInt-
+#158	NEW    cov: 72306 ft: 125326 corp: 125/1901b lim: 17 exec/s: 6 rss: 580Mb L: 17/17 MS: 1 ChangeBit-
+#164	NEW    cov: 72325 ft: 125340 corp: 126/1917b lim: 17 exec/s: 7 rss: 584Mb L: 16/17 MS: 1 CopyPart-
+#165	NEW    cov: 72325 ft: 125343 corp: 127/1934b lim: 17 exec/s: 7 rss: 585Mb L: 17/17 MS: 1 CrossOver-
+#170	NEW    cov: 72328 ft: 125349 corp: 128/1936b lim: 17 exec/s: 7 rss: 589Mb L: 2/17 MS: 5 CMP-CrossOver-CopyPart-InsertRepeatedBytes-CrossOver- DE: "\377\377\377\\"-
+#172	NEW    cov: 72329 ft: 125350 corp: 129/1951b lim: 17 exec/s: 7 rss: 589Mb L: 15/17 MS: 2 InsertRepeatedBytes-PersAutoDict- DE: "\001\000\000\014"-
+#173	NEW    cov: 72329 ft: 125384 corp: 130/1963b lim: 17 exec/s: 7 rss: 591Mb L: 12/17 MS: 1 EraseBytes-
+#179	NEW    cov: 72329 ft: 125386 corp: 131/1980b lim: 17 exec/s: 7 rss: 594Mb L: 17/17 MS: 1 ChangeBinInt-
+#180	NEW    cov: 72340 ft: 125399 corp: 132/1989b lim: 17 exec/s: 7 rss: 594Mb L: 9/17 MS: 1 EraseBytes-
+#182	NEW    cov: 72340 ft: 125401 corp: 133/2006b lim: 17 exec/s: 7 rss: 596Mb L: 17/17 MS: 2 ChangeBinInt-CMP- DE: "\"\000\000\000\000\000\000\000"-
+#191	NEW    cov: 72340 ft: 125403 corp: 134/2021b lim: 17 exec/s: 7 rss: 602Mb L: 15/17 MS: 4 CMP-CrossOver-ChangeByte-PersAutoDict- DE: "\006\354"-"\001\000\000\014"-
+#192	NEW    cov: 72340 ft: 125410 corp: 135/2038b lim: 17 exec/s: 8 rss: 604Mb L: 17/17 MS: 1 CopyPart-
+#193	NEW    cov: 72340 ft: 125412 corp: 136/2055b lim: 17 exec/s: 8 rss: 604Mb L: 17/17 MS: 1 ChangeByte-
+#195	NEW    cov: 72340 ft: 125413 corp: 137/2072b lim: 17 exec/s: 8 rss: 605Mb L: 17/17 MS: 2 CopyPart-CMP- DE: "\000\000"-
+#200	NEW    cov: 72340 ft: 125424 corp: 138/2076b lim: 17 exec/s: 8 rss: 609Mb L: 4/17 MS: 5 ChangeByte-InsertByte-InsertRepeatedBytes-CrossOver-CrossOver-
+#201	NEW    cov: 72343 ft: 125475 corp: 139/2090b lim: 17 exec/s: 8 rss: 609Mb L: 14/17 MS: 1 CMP- DE: "W\004\000\000"-
+#202	NEW    cov: 72347 ft: 125484 corp: 140/2098b lim: 17 exec/s: 8 rss: 610Mb L: 8/17 MS: 1 CMP- DE: "\000\000"-
+#211	NEW    cov: 72350 ft: 125487 corp: 141/2115b lim: 17 exec/s: 8 rss: 621Mb L: 17/17 MS: 4 ShuffleBytes-ChangeBit-CopyPart-InsertByte-
+#223	NEW    cov: 72350 ft: 125501 corp: 142/2132b lim: 17 exec/s: 8 rss: 624Mb L: 17/17 MS: 2 ChangeBit-CopyPart-
+#230	NEW    cov: 72351 ft: 125502 corp: 143/2134b lim: 17 exec/s: 9 rss: 628Mb L: 2/17 MS: 2 CMP-CrossOver- DE: "$\000\000\000\000\000\000\000"-
+#231	NEW    cov: 72352 ft: 125507 corp: 144/2149b lim: 17 exec/s: 8 rss: 637Mb L: 15/17 MS: 1 CrossOver-
+#233	NEW    cov: 72352 ft: 125523 corp: 145/2161b lim: 17 exec/s: 8 rss: 637Mb L: 12/17 MS: 2 ShuffleBytes-CopyPart-
+#239	NEW    cov: 72356 ft: 125533 corp: 146/2174b lim: 17 exec/s: 8 rss: 641Mb L: 13/17 MS: 1 CrossOver-
+#240	NEW    cov: 72357 ft: 125540 corp: 147/2188b lim: 17 exec/s: 8 rss: 641Mb L: 14/17 MS: 1 PersAutoDict- DE: "$\000\000\000\000\000\000\000"-
+#246	REDUCE cov: 72357 ft: 125540 corp: 147/2187b lim: 17 exec/s: 8 rss: 644Mb L: 11/17 MS: 1 EraseBytes-
+#247	NEW    cov: 72357 ft: 125543 corp: 148/2204b lim: 17 exec/s: 8 rss: 650Mb L: 17/17 MS: 1 ChangeByte-
+#248	NEW    cov: 72459 ft: 125927 corp: 149/2219b lim: 17 exec/s: 8 rss: 653Mb L: 15/17 MS: 1 ShuffleBytes-
+#251	NEW    cov: 72459 ft: 125932 corp: 150/2236b lim: 17 exec/s: 8 rss: 653Mb L: 17/17 MS: 3 ChangeBit-ShuffleBytes-CopyPart-
+#252	NEW    cov: 72459 ft: 125944 corp: 151/2253b lim: 17 exec/s: 8 rss: 653Mb L: 17/17 MS: 1 CopyPart-
+#254	NEW    cov: 72461 ft: 125946 corp: 152/2260b lim: 17 exec/s: 8 rss: 653Mb L: 7/17 MS: 2 EraseBytes-ChangeByte-
+#256	pulse  cov: 72461 ft: 125946 corp: 152/2260b lim: 17 exec/s: 8 rss: 654Mb
+#257	NEW    cov: 72461 ft: 125949 corp: 153/2277b lim: 17 exec/s: 8 rss: 655Mb L: 17/17 MS: 3 CopyPart-ChangeByte-ChangeByte-
+#259	NEW    cov: 72462 ft: 126016 corp: 154/2291b lim: 17 exec/s: 8 rss: 656Mb L: 14/17 MS: 2 ChangeBinInt-CrossOver-
+#262	NEW    cov: 72462 ft: 126017 corp: 155/2308b lim: 17 exec/s: 9 rss: 659Mb L: 17/17 MS: 3 CrossOver-ChangeBit-ChangeByte-
+#265	NEW    cov: 72463 ft: 126020 corp: 156/2309b lim: 17 exec/s: 8 rss: 661Mb L: 1/17 MS: 3 ChangeBinInt-CrossOver-EraseBytes-
+#266	NEW    cov: 72463 ft: 126021 corp: 157/2326b lim: 17 exec/s: 8 rss: 662Mb L: 17/17 MS: 1 ChangeByte-
+#267	NEW    cov: 72463 ft: 126023 corp: 158/2341b lim: 17 exec/s: 8 rss: 662Mb L: 15/17 MS: 1 CopyPart-
+#268	NEW    cov: 72506 ft: 126090 corp: 159/2358b lim: 17 exec/s: 8 rss: 664Mb L: 17/17 MS: 1 CopyPart-
+#269	NEW    cov: 72506 ft: 126167 corp: 160/2375b lim: 17 exec/s: 8 rss: 665Mb L: 17/17 MS: 1 PersAutoDict- DE: "\000\000"-
+#270	NEW    cov: 72506 ft: 126170 corp: 161/2392b lim: 17 exec/s: 8 rss: 665Mb L: 17/17 MS: 1 ChangeByte-
+#276	NEW    cov: 72506 ft: 126205 corp: 162/2409b lim: 17 exec/s: 8 rss: 666Mb L: 17/17 MS: 1 ChangeByte-
+#287	NEW    cov: 72506 ft: 126279 corp: 163/2426b lim: 17 exec/s: 8 rss: 674Mb L: 17/17 MS: 1 ChangeByte-
+#290	REDUCE cov: 72506 ft: 126279 corp: 163/2420b lim: 17 exec/s: 8 rss: 676Mb L: 11/17 MS: 3 ChangeByte-ChangeBinInt-EraseBytes-
+#294	NEW    cov: 72519 ft: 126325 corp: 164/2422b lim: 17 exec/s: 8 rss: 683Mb L: 2/17 MS: 4 CopyPart-ChangeBinInt-ChangeBit-ChangeBinInt-
+#295	NEW    cov: 72519 ft: 126328 corp: 165/2439b lim: 17 exec/s: 8 rss: 683Mb L: 17/17 MS: 1 CMP- DE: "libunic"-
+#296	NEW    cov: 72519 ft: 126361 corp: 166/2454b lim: 17 exec/s: 8 rss: 683Mb L: 15/17 MS: 1 CrossOver-
+#298	NEW    cov: 72520 ft: 126388 corp: 167/2470b lim: 17 exec/s: 8 rss: 683Mb L: 16/17 MS: 2 ChangeByte-CrossOver-
+#299	NEW    cov: 72535 ft: 126457 corp: 168/2487b lim: 17 exec/s: 8 rss: 689Mb L: 17/17 MS: 1 CopyPart-
+#300	NEW    cov: 72552 ft: 126472 corp: 169/2503b lim: 17 exec/s: 8 rss: 689Mb L: 16/17 MS: 1 EraseBytes-
+#302	NEW    cov: 72554 ft: 126480 corp: 170/2518b lim: 17 exec/s: 8 rss: 689Mb L: 15/17 MS: 2 CopyPart-CrossOver-
+#303	NEW    cov: 72554 ft: 126481 corp: 171/2535b lim: 17 exec/s: 8 rss: 689Mb L: 17/17 MS: 1 ChangeByte-
+#314	NEW    cov: 72554 ft: 126482 corp: 172/2552b lim: 17 exec/s: 8 rss: 695Mb L: 17/17 MS: 1 CrossOver-
+#316	NEW    cov: 72554 ft: 126487 corp: 173/2569b lim: 17 exec/s: 9 rss: 696Mb L: 17/17 MS: 2 ChangeByte-ChangeBit-
+#319	NEW    cov: 72555 ft: 126488 corp: 174/2578b lim: 17 exec/s: 9 rss: 698Mb L: 9/17 MS: 3 PersAutoDict-CrossOver-ChangeBinInt- DE: "\"\000\000\000\000\000\000\000"-
+#320	NEW    cov: 72555 ft: 126567 corp: 175/2588b lim: 17 exec/s: 9 rss: 699Mb L: 10/17 MS: 1 EraseBytes-
+#321	NEW    cov: 72555 ft: 126577 corp: 176/2605b lim: 17 exec/s: 9 rss: 700Mb L: 17/17 MS: 1 ChangeBinInt-
+#323	NEW    cov: 72555 ft: 126578 corp: 177/2621b lim: 17 exec/s: 9 rss: 702Mb L: 16/17 MS: 2 InsertRepeatedBytes-CrossOver-
+#339	NEW    cov: 72556 ft: 126589 corp: 178/2638b lim: 17 exec/s: 9 rss: 713Mb L: 17/17 MS: 1 ChangeBinInt-
+#341	NEW    cov: 72557 ft: 126590 corp: 179/2655b lim: 17 exec/s: 9 rss: 715Mb L: 17/17 MS: 2 ShuffleBytes-ShuffleBytes-
+#342	NEW    cov: 72557 ft: 126593 corp: 180/2672b lim: 17 exec/s: 9 rss: 716Mb L: 17/17 MS: 1 ShuffleBytes-
+#345	NEW    cov: 72558 ft: 126624 corp: 181/2686b lim: 17 exec/s: 9 rss: 717Mb L: 14/17 MS: 3 ShuffleBytes-EraseBytes-CopyPart-
+#356	NEW    cov: 72558 ft: 126625 corp: 182/2703b lim: 17 exec/s: 9 rss: 734Mb L: 17/17 MS: 1 ChangeBit-
+#357	NEW    cov: 72561 ft: 126698 corp: 183/2720b lim: 17 exec/s: 9 rss: 734Mb L: 17/17 MS: 1 CopyPart-
+#359	NEW    cov: 72563 ft: 126754 corp: 184/2737b lim: 17 exec/s: 9 rss: 734Mb L: 17/17 MS: 2 ChangeByte-CrossOver-
+#367	NEW    cov: 72564 ft: 126755 corp: 185/2742b lim: 17 exec/s: 9 rss: 734Mb L: 5/17 MS: 3 EraseBytes-EraseBytes-ChangeByte-
+#368	REDUCE cov: 72564 ft: 126755 corp: 185/2740b lim: 17 exec/s: 9 rss: 735Mb L: 13/17 MS: 1 EraseBytes-
+#374	NEW    cov: 72564 ft: 126756 corp: 186/2744b lim: 17 exec/s: 9 rss: 739Mb L: 4/17 MS: 1 EraseBytes-
+#380	NEW    cov: 72564 ft: 126757 corp: 187/2761b lim: 17 exec/s: 10 rss: 744Mb L: 17/17 MS: 1 ChangeBinInt-
+#387	REDUCE cov: 72564 ft: 126757 corp: 187/2754b lim: 17 exec/s: 10 rss: 749Mb L: 10/17 MS: 2 ChangeByte-EraseBytes-
+#390	NEW    cov: 72570 ft: 126789 corp: 188/2764b lim: 17 exec/s: 10 rss: 751Mb L: 10/17 MS: 3 PersAutoDict-CrossOver-EraseBytes- DE: "\006\354"-
+#399	NEW    cov: 72573 ft: 126821 corp: 189/2781b lim: 17 exec/s: 10 rss: 765Mb L: 17/17 MS: 4 ChangeBinInt-ChangeByte-CopyPart-CrossOver-
+#405	NEW    cov: 72573 ft: 126823 corp: 190/2798b lim: 17 exec/s: 10 rss: 765Mb L: 17/17 MS: 1 ShuffleBytes-
+#406	NEW    cov: 72573 ft: 126841 corp: 191/2815b lim: 17 exec/s: 10 rss: 765Mb L: 17/17 MS: 1 ChangeBit-
+#407	NEW    cov: 72586 ft: 126862 corp: 192/2831b lim: 17 exec/s: 10 rss: 765Mb L: 16/17 MS: 1 ShuffleBytes-
+#408	NEW    cov: 72831 ft: 127474 corp: 193/2848b lim: 17 exec/s: 10 rss: 774Mb L: 17/17 MS: 1 ShuffleBytes-
+#410	NEW    cov: 72889 ft: 127527 corp: 194/2863b lim: 17 exec/s: 10 rss: 774Mb L: 15/17 MS: 2 PersAutoDict-InsertByte- DE: "libunic"-
+#411	NEW    cov: 72889 ft: 127528 corp: 195/2880b lim: 17 exec/s: 10 rss: 774Mb L: 17/17 MS: 1 ChangeBit-
+#412	NEW    cov: 72889 ft: 127535 corp: 196/2883b lim: 17 exec/s: 10 rss: 775Mb L: 3/17 MS: 1 InsertByte-
+#414	NEW    cov: 72889 ft: 127536 corp: 197/2897b lim: 17 exec/s: 10 rss: 775Mb L: 14/17 MS: 2 ShuffleBytes-EraseBytes-
+#444	NEW    cov: 72889 ft: 127574 corp: 198/2905b lim: 17 exec/s: 10 rss: 791Mb L: 8/17 MS: 5 ShuffleBytes-CopyPart-EraseBytes-ChangeASCIIInt-EraseBytes-
+#445	NEW    cov: 72889 ft: 127576 corp: 199/2919b lim: 17 exec/s: 10 rss: 792Mb L: 14/17 MS: 1 InsertRepeatedBytes-
+#464	NEW    cov: 72889 ft: 127577 corp: 200/2927b lim: 17 exec/s: 11 rss: 797Mb L: 8/17 MS: 4 ChangeBinInt-CMP-CMP-InsertByte- DE: "#!"-"\021\000"-
+#465	NEW    cov: 72933 ft: 127724 corp: 201/2944b lim: 17 exec/s: 11 rss: 798Mb L: 17/17 MS: 1 CrossOver-
+#466	NEW    cov: 72933 ft: 127728 corp: 202/2958b lim: 17 exec/s: 11 rss: 798Mb L: 14/17 MS: 1 CopyPart-
+#472	REDUCE cov: 72933 ft: 127728 corp: 202/2956b lim: 17 exec/s: 11 rss: 798Mb L: 13/17 MS: 1 EraseBytes-
+#483	REDUCE cov: 72933 ft: 127728 corp: 202/2953b lim: 17 exec/s: 11 rss: 798Mb L: 14/17 MS: 1 EraseBytes-
+#492	NEW    cov: 72934 ft: 127731 corp: 203/2962b lim: 17 exec/s: 11 rss: 798Mb L: 9/17 MS: 4 ChangeByte-EraseBytes-EraseBytes-CopyPart-
+#493	NEW    cov: 72936 ft: 127741 corp: 204/2973b lim: 17 exec/s: 11 rss: 798Mb L: 11/17 MS: 1 CMP- DE: "\001\000\000\000\000\000\000i"-
+#494	NEW    cov: 72936 ft: 127754 corp: 205/2990b lim: 17 exec/s: 11 rss: 799Mb L: 17/17 MS: 1 CMP- DE: "\017\000\000\000\000\000\000\000"-
+#504	NEW    cov: 72936 ft: 127874 corp: 206/3007b lim: 17 exec/s: 12 rss: 803Mb L: 17/17 MS: 5 ChangeBit-ChangeBit-ChangeASCIIInt-CopyPart-CopyPart-
+#510	NEW    cov: 72936 ft: 127875 corp: 207/3023b lim: 17 exec/s: 12 rss: 805Mb L: 16/17 MS: 1 InsertRepeatedBytes-
+#512	pulse  cov: 72936 ft: 127878 corp: 207/3023b lim: 17 exec/s: 12 rss: 805Mb
+#512	NEW    cov: 72936 ft: 127878 corp: 208/3040b lim: 17 exec/s: 12 rss: 805Mb L: 17/17 MS: 2 ChangeBit-CMP- DE: "/home/soye"-
+#529	REDUCE cov: 72936 ft: 127878 corp: 208/3039b lim: 17 exec/s: 12 rss: 805Mb L: 14/17 MS: 2 CopyPart-EraseBytes-
+#540	NEW    cov: 72939 ft: 127924 corp: 209/3056b lim: 17 exec/s: 12 rss: 805Mb L: 17/17 MS: 1 ChangeByte-
+#541	NEW    cov: 72960 ft: 127946 corp: 210/3073b lim: 17 exec/s: 12 rss: 805Mb L: 17/17 MS: 1 CopyPart-
+#548	NEW    cov: 72960 ft: 127949 corp: 211/3084b lim: 17 exec/s: 12 rss: 805Mb L: 11/17 MS: 2 ChangeBinInt-ChangeBit-
+#554	NEW    cov: 72960 ft: 127952 corp: 212/3101b lim: 17 exec/s: 12 rss: 805Mb L: 17/17 MS: 1 CopyPart-
+#555	NEW    cov: 72961 ft: 128016 corp: 213/3116b lim: 17 exec/s: 12 rss: 805Mb L: 15/17 MS: 1 EraseBytes-
+#561	NEW    cov: 72961 ft: 128017 corp: 214/3133b lim: 17 exec/s: 12 rss: 805Mb L: 17/17 MS: 1 CopyPart-
+#567	NEW    cov: 72961 ft: 128019 corp: 215/3150b lim: 17 exec/s: 12 rss: 805Mb L: 17/17 MS: 1 CrossOver-
+#580	NEW    cov: 72961 ft: 128022 corp: 216/3164b lim: 17 exec/s: 13 rss: 805Mb L: 14/17 MS: 3 ChangeBinInt-PersAutoDict-EraseBytes- DE: "\001\000\000\000\000\000\000i"-
+#581	NEW    cov: 72961 ft: 128024 corp: 217/3181b lim: 17 exec/s: 13 rss: 805Mb L: 17/17 MS: 1 ChangeByte-
+thread 'rustc' panicked at /home/soyeon/llm-rust/fuzz-rustc/rust/compiler/rustc_errors/src/diagnostic.rs:580:9:
+assertion `left == right` failed: suggestion must not have overlapping parts
+  left: Some([SubstitutionPart { span: fuzz_input.rs:1:14: 1:18 (#0), snippet: "" }, SubstitutionPart { span: fuzz_input.rs:1:17: 1:18 (#0), snippet: ", .. }" }])
+ right: None
+note: run with `RUST_BACKTRACE=1` environment variable to display a backtrace
+==917737== ERROR: libFuzzer: deadly signal
+    #0 0x55927b9d0901 in __sanitizer_print_stack_trace /rustc/llvm/src/llvm-project/compiler-rt/lib/asan/asan_stack.cpp:87:3
+    #1 0x55928a1b2ac0 in fuzzer::PrintStackTrace() (/home/soyeon/llm-rust/fuzz-rustc/target/x86_64-unknown-linux-gnu/release/fuzz_target+0x183d6ac0) (BuildId: 126b63024afe38292f0f3eb1564f13953796f655)
+    #2 0x55928a19dcca in fuzzer::Fuzzer::CrashCallback() (/home/soyeon/llm-rust/fuzz-rustc/target/x86_64-unknown-linux-gnu/release/fuzz_target+0x183c1cca) (BuildId: 126b63024afe38292f0f3eb1564f13953796f655)
+    #3 0x7fdd698db41f  (/lib/x86_64-linux-gnu/libpthread.so.0+0x1441f) (BuildId: 0c044ba611aeeeaebb8374e660061f341ebc0bac)
+    #4 0x7fdd695c700a in __libc_signal_restore_set /build/glibc-wuryBv/glibc-2.31/signal/../sysdeps/unix/sysv/linux/internal-signals.h:86:3
+    #5 0x7fdd695c700a in raise /build/glibc-wuryBv/glibc-2.31/signal/../sysdeps/unix/sysv/linux/raise.c:48:3
+    #6 0x7fdd695a6858 in abort /build/glibc-wuryBv/glibc-2.31/stdlib/abort.c:79:7
+    #7 0x55928a2162f6 in std::sys::pal::unix::abort_internal::h6262fe410407344a /rustc/1a648b397dedc98ada3dd3360f6d661ec2436c56/library/std/src/sys/pal/unix/mod.rs:371:14
+    #8 0x55927b93d3b6 in std::process::abort::hd577488466449d8a /rustc/1a648b397dedc98ada3dd3360f6d661ec2436c56/library/std/src/process.rs:2279:5
+    #9 0x55928a19b736 in libfuzzer_sys::initialize::_$u7b$$u7b$closure$u7d$$u7d$::h0192bcf0408706d4 libfuzzer_sys.57297d71e5d9b432-cgu.0
+    #10 0x55928a20f385 in _$LT$alloc..boxed..Box$LT$F$C$A$GT$$u20$as$u20$core..ops..function..Fn$LT$Args$GT$$GT$::call::hc543a528b9bc2dd2 /rustc/1a648b397dedc98ada3dd3360f6d661ec2436c56/library/alloc/src/boxed.rs:2030:9
+    #11 0x55928a20f385 in std::panicking::rust_panic_with_hook::haac9f65a4111ce33 /rustc/1a648b397dedc98ada3dd3360f6d661ec2436c56/library/std/src/panicking.rs:785:13
+    #12 0x55928a20f0d1 in std::panicking::begin_panic_handler::_$u7b$$u7b$closure$u7d$$u7d$::h6a452ac7fecf7288 /rustc/1a648b397dedc98ada3dd3360f6d661ec2436c56/library/std/src/panicking.rs:659:13
+    #13 0x55928a20d875 in std::sys_common::backtrace::__rust_end_short_backtrace::ha4c176c669fc3286 /rustc/1a648b397dedc98ada3dd3360f6d661ec2436c56/library/std/src/sys_common/backtrace.rs:171:18
+    #14 0x55928a20ee23 in rust_begin_unwind /rustc/1a648b397dedc98ada3dd3360f6d661ec2436c56/library/std/src/panicking.rs:647:5
+    #15 0x55927b93f8f4 in core::panicking::panic_fmt::hfae197985af26789 /rustc/1a648b397dedc98ada3dd3360f6d661ec2436c56/library/core/src/panicking.rs:72:14
+    #16 0x55927b93fe5e in core::panicking::assert_failed_inner::he10d677b27749a5e /rustc/1a648b397dedc98ada3dd3360f6d661ec2436c56/library/core/src/panicking.rs:337:23
+    #17 0x55927b6a234e in core::panicking::assert_failed::h022a94622f5eca48 (/home/soyeon/llm-rust/fuzz-rustc/target/x86_64-unknown-linux-gnu/release/fuzz_target+0x98c634e) (BuildId: 126b63024afe38292f0f3eb1564f13953796f655)
+    #18 0x5592881bb59a in rustc_errors::diagnostic::Diagnostic::multipart_suggestion_with_style::hcd3267df2772a564 (/home/soyeon/llm-rust/fuzz-rustc/target/x86_64-unknown-linux-gnu/release/fuzz_target+0x163df59a) (BuildId: 126b63024afe38292f0f3eb1564f13953796f655)
+    #19 0x5592881d03be in rustc_errors::diagnostic_builder::DiagnosticBuilder$LT$G$GT$::multipart_suggestion::h2e9d154473a7fc90 (/home/soyeon/llm-rust/fuzz-rustc/target/x86_64-unknown-linux-gnu/release/fuzz_target+0x163f43be) (BuildId: 126b63024afe38292f0f3eb1564f13953796f655)
+    #20 0x559287e2a46e in rustc_parse::parser::pat::_$LT$impl$u20$rustc_parse..parser..Parser$GT$::parse_pat_struct::h3cde255e4c71a054 rustc_parse.9219a23417ef50de-cgu.00
+    #21 0x559287e0d442 in rustc_parse::parser::pat::_$LT$impl$u20$rustc_parse..parser..Parser$GT$::parse_pat_with_range_pat::hb656e3e3590737d5 rustc_parse.9219a23417ef50de-cgu.00
+    #22 0x559287e00e9c in rustc_parse::parser::pat::_$LT$impl$u20$rustc_parse..parser..Parser$GT$::parse_pat_with_range_pat::hb656e3e3590737d5 rustc_parse.9219a23417ef50de-cgu.00
+    #23 0x559287caef5b in rustc_parse::parser::expr::_$LT$impl$u20$rustc_parse..parser..Parser$GT$::parse_fn_block_param::_$u7b$$u7b$closure$u7d$$u7d$::h56ea168e5bad9620 rustc_parse.9219a23417ef50de-cgu.00
+    #24 0x559287cab9b0 in rustc_parse::parser::expr::_$LT$impl$u20$rustc_parse..parser..Parser$GT$::parse_fn_block_param::h0e3ef04c9c65f0bb rustc_parse.9219a23417ef50de-cgu.00
+    #25 0x559287ca1e3f in rustc_parse::parser::expr::_$LT$impl$u20$rustc_parse..parser..Parser$GT$::parse_expr_closure::hfdff94eb0410efa9 rustc_parse.9219a23417ef50de-cgu.00
+    #26 0x559287c2f66a in rustc_parse::parser::expr::_$LT$impl$u20$rustc_parse..parser..Parser$GT$::parse_expr_dot_or_call::_$u7b$$u7b$closure$u7d$$u7d$::hbdf3d2624059f059 rustc_parse.9219a23417ef50de-cgu.00
+    #27 0x559287b6bbcf in rustc_parse::parser::attr_wrapper::_$LT$impl$u20$rustc_parse..parser..Parser$GT$::collect_tokens_trailing_token::hd40c949d375079e4 rustc_parse.9219a23417ef50de-cgu.00
+    #28 0x559287c12d1b in rustc_parse::parser::expr::_$LT$impl$u20$rustc_parse..parser..Parser$GT$::parse_expr_prefix::h1f8fe1411940e071 rustc_parse.9219a23417ef50de-cgu.00
+    #29 0x559287bfe23b in rustc_parse::parser::expr::_$LT$impl$u20$rustc_parse..parser..Parser$GT$::parse_expr_assoc_with::hf4e9cf8a82387538 (/home/soyeon/llm-rust/fuzz-rustc/target/x86_64-unknown-linux-gnu/release/fuzz_target+0x15e2223b) (BuildId: 126b63024afe38292f0f3eb1564f13953796f655)
+    #30 0x559287e5f664 in rustc_parse::parser::path::_$LT$impl$u20$rustc_parse..parser..Parser$GT$::parse_generic_arg::hcd753fc2d0c3ae91 rustc_parse.9219a23417ef50de-cgu.00
+    #31 0x559287e5518f in rustc_parse::parser::path::_$LT$impl$u20$rustc_parse..parser..Parser$GT$::parse_angle_args::h528b572e8afb2908 rustc_parse.9219a23417ef50de-cgu.00
+    #32 0x559287e4b12e in rustc_parse::parser::path::_$LT$impl$u20$rustc_parse..parser..Parser$GT$::parse_path_segment::h8ec906d63becc3cd rustc_parse.9219a23417ef50de-cgu.00
+    #33 0x559287e447bd in rustc_parse::parser::path::_$LT$impl$u20$rustc_parse..parser..Parser$GT$::parse_path_segments::he3898579582c88c8 rustc_parse.9219a23417ef50de-cgu.00
+    #34 0x559287e3f779 in rustc_parse::parser::path::_$LT$impl$u20$rustc_parse..parser..Parser$GT$::parse_path_inner::hcb666657bfcc47b4 rustc_parse.9219a23417ef50de-cgu.00
+    #35 0x559287eacd5a in rustc_parse::parser::ty::_$LT$impl$u20$rustc_parse..parser..Parser$GT$::parse_path_start_ty::hd479438ca0cc0ba5 rustc_parse.9219a23417ef50de-cgu.00
+    #36 0x559287e95b30 in rustc_parse::parser::ty::_$LT$impl$u20$rustc_parse..parser..Parser$GT$::parse_ty_common::h27951f96ad038189 rustc_parse.9219a23417ef50de-cgu.00
+    #37 0x559287e3a60c in rustc_parse::parser::path::_$LT$impl$u20$rustc_parse..parser..Parser$GT$::parse_qpath::h01707169ddadd06f rustc_parse.9219a23417ef50de-cgu.00
+    #38 0x559287e954b5 in rustc_parse::parser::ty::_$LT$impl$u20$rustc_parse..parser..Parser$GT$::parse_ty_common::h27951f96ad038189 rustc_parse.9219a23417ef50de-cgu.00
+    #39 0x559287e94c4e in rustc_parse::parser::ty::_$LT$impl$u20$rustc_parse..parser..Parser$GT$::parse_ty_common::h27951f96ad038189 rustc_parse.9219a23417ef50de-cgu.00
+    #40 0x559287d2804c in rustc_parse::parser::generics::_$LT$impl$u20$rustc_parse..parser..Parser$GT$::parse_ty_where_predicate::h376a7df77257fd22 rustc_parse.9219a23417ef50de-cgu.00
+    #41 0x559287d18561 in rustc_parse::parser::generics::_$LT$impl$u20$rustc_parse..parser..Parser$GT$::parse_generic_params::_$u7b$$u7b$closure$u7d$$u7d$::he203e1feb4a36e5c rustc_parse.9219a23417ef50de-cgu.00
+    #42 0x559287d131a8 in rustc_parse::parser::generics::_$LT$impl$u20$rustc_parse..parser..Parser$GT$::parse_generic_params::heae5d3baf2fe53a8 rustc_parse.9219a23417ef50de-cgu.00
+    #43 0x559287d1cbaf in rustc_parse::parser::generics::_$LT$impl$u20$rustc_parse..parser..Parser$GT$::parse_generics::hd496b00ddbb72857 rustc_parse.9219a23417ef50de-cgu.00
+    #44 0x559287b722c1 in rustc_parse::parser::diagnostics::_$LT$impl$u20$rustc_parse..parser..Parser$GT$::expected_ident_found::h7047b9ce1f66fc72 rustc_parse.9219a23417ef50de-cgu.00
+    #45 0x559287ec4f37 in rustc_parse::parser::Parser::parse_ident_common::h6cb1a62ec32d2892 rustc_parse.9219a23417ef50de-cgu.00
+    #46 0x559287dc0417 in rustc_parse::parser::item::_$LT$impl$u20$rustc_parse..parser..Parser$GT$::parse_fn::hf1249b923274c22e rustc_parse.9219a23417ef50de-cgu.00
+    #47 0x559287d3a27a in rustc_parse::parser::item::_$LT$impl$u20$rustc_parse..parser..Parser$GT$::parse_item_kind::hcaee0b4d7f39d70f rustc_parse.9219a23417ef50de-cgu.00
+    #48 0x559287d339d5 in rustc_parse::parser::item::_$LT$impl$u20$rustc_parse..parser..Parser$GT$::parse_item_common::hefc84a5bd74e6565 rustc_parse.9219a23417ef50de-cgu.00
+    #49 0x559287d31fcf in rustc_parse::parser::item::_$LT$impl$u20$rustc_parse..parser..Parser$GT$::parse_item_::h6889254e4b9109d0 rustc_parse.9219a23417ef50de-cgu.00
+    #50 0x559287d2ff30 in rustc_parse::parser::item::_$LT$impl$u20$rustc_parse..parser..Parser$GT$::parse_mod::h24324cd668ac3980 (/home/soyeon/llm-rust/fuzz-rustc/target/x86_64-unknown-linux-gnu/release/fuzz_target+0x15f53f30) (BuildId: 126b63024afe38292f0f3eb1564f13953796f655)
+    #51 0x559287d2dda7 in rustc_parse::parser::item::_$LT$impl$u20$rustc_parse..parser..Parser$GT$::parse_crate_mod::hf3c55802c24573cd (/home/soyeon/llm-rust/fuzz-rustc/target/x86_64-unknown-linux-gnu/release/fuzz_target+0x15f51da7) (BuildId: 126b63024afe38292f0f3eb1564f13953796f655)
+    #52 0x55928825a7e3 in rustc_parse::parse_crate_from_file::h65f1c4d93cc8bd52 (/home/soyeon/llm-rust/fuzz-rustc/target/x86_64-unknown-linux-gnu/release/fuzz_target+0x1647e7e3) (BuildId: 126b63024afe38292f0f3eb1564f13953796f655)
+    #53 0x55927bee550c in rustc_session::utils::_$LT$impl$u20$rustc_session..session..Session$GT$::time::h5ecb4790ba66f75e (/home/soyeon/llm-rust/fuzz-rustc/target/x86_64-unknown-linux-gnu/release/fuzz_target+0xa10950c) (BuildId: 126b63024afe38292f0f3eb1564f13953796f655)
+    #54 0x55927c0f7756 in rustc_interface::passes::parse::h23e40d4ecc188e23 (/home/soyeon/llm-rust/fuzz-rustc/target/x86_64-unknown-linux-gnu/release/fuzz_target+0xa31b756) (BuildId: 126b63024afe38292f0f3eb1564f13953796f655)
+    #55 0x55927bf10568 in rustc_interface::queries::Queries::parse::h035c99275c34b9cf (/home/soyeon/llm-rust/fuzz-rustc/target/x86_64-unknown-linux-gnu/release/fuzz_target+0xa134568) (BuildId: 126b63024afe38292f0f3eb1564f13953796f655)
+    #56 0x55927bb5c576 in rustc_interface::queries::_$LT$impl$u20$rustc_interface..interface..Compiler$GT$::enter::h77c93632637861fd (/home/soyeon/llm-rust/fuzz-rustc/target/x86_64-unknown-linux-gnu/release/fuzz_target+0x9d80576) (BuildId: 126b63024afe38292f0f3eb1564f13953796f655)
+    #57 0x55927bb891e8 in rustc_span::create_session_globals_then::h1392f3b73a5525f1 (/home/soyeon/llm-rust/fuzz-rustc/target/x86_64-unknown-linux-gnu/release/fuzz_target+0x9dad1e8) (BuildId: 126b63024afe38292f0f3eb1564f13953796f655)
+    #58 0x55927bbc0f7f in std::sys_common::backtrace::__rust_begin_short_backtrace::h6d5d21aa194e1e7e (/home/soyeon/llm-rust/fuzz-rustc/target/x86_64-unknown-linux-gnu/release/fuzz_target+0x9de4f7f) (BuildId: 126b63024afe38292f0f3eb1564f13953796f655)
+    #59 0x55927bb9121c in std::panicking::try::do_call::he54f104dfa56bf64 rustc_driver_impl.bb929daa494bacdb-cgu.12
+    #60 0x55927bba27ae in __rust_try rustc_driver_impl.bb929daa494bacdb-cgu.12
+    #61 0x55927bb91cc2 in core::ops::function::FnOnce::call_once$u7b$$u7b$vtable.shim$u7d$$u7d$::h0f64776fdc8d3b3b rustc_driver_impl.bb929daa494bacdb-cgu.12
+    #62 0x55928a214ca4 in _$LT$alloc..boxed..Box$LT$F$C$A$GT$$u20$as$u20$core..ops..function..FnOnce$LT$Args$GT$$GT$::call_once::h882bc548fde6b0fb /rustc/1a648b397dedc98ada3dd3360f6d661ec2436c56/library/alloc/src/boxed.rs:2016:9
+    #63 0x55928a214ca4 in _$LT$alloc..boxed..Box$LT$F$C$A$GT$$u20$as$u20$core..ops..function..FnOnce$LT$Args$GT$$GT$::call_once::h95e2a93069d2a4eb /rustc/1a648b397dedc98ada3dd3360f6d661ec2436c56/library/alloc/src/boxed.rs:2016:9
+    #64 0x55928a214ca4 in std::sys::pal::unix::thread::Thread::new::thread_start::hbe34808929695de9 /rustc/1a648b397dedc98ada3dd3360f6d661ec2436c56/library/std/src/sys/pal/unix/thread.rs:108:17
+    #65 0x55927b9c693a in asan_thread_start(void*) /rustc/llvm/src/llvm-project/compiler-rt/lib/asan/asan_interceptors.cpp:225:31
+    #66 0x7fdd698cf608 in start_thread /build/glibc-wuryBv/glibc-2.31/nptl/pthread_create.c:477:8
+    #67 0x7fdd696a3352 in __clone /build/glibc-wuryBv/glibc-2.31/misc/../sysdeps/unix/sysv/linux/x86_64/clone.S:95
+
+NOTE: libFuzzer has rudimentary signal handlers.
+      Combine libFuzzer with AddressSanitizer or similar for better crash reports.
+SUMMARY: libFuzzer: deadly signal
+MS: 1 ChangeBit-; base unit: 05e6b539a0e1e617a98edbf7087d6beb71c8895e
+0x66,0x6e,0x3c,0x26,0x3c,0x6e,0x6e,0x6e,0x3c,0x7c,0x26,0x65,0x7b,0x5f,0x2c,0x51,0x7d,
+fn<&<nnn<|&e{_,Q}
+artifact_prefix='artifacts/'; Test unit written to artifacts/crash-79174f58c64d5554bc0ef648ba4f370a73666315
+Base64: Zm48Jjxubm48fCZle18sUX0=
+stat::number_of_executed_units: 582
+stat::average_exec_per_sec:     12
+stat::new_units_added:          118
+stat::slowest_unit_time_sec:    0
+stat::peak_rss_mb:              805
+INFO: exiting: 77 time: 1885s

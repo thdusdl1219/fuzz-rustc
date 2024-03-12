@@ -1,0 +1,299 @@
+#3801142: cov: 460693 ft: 362145 corp: 11627 exec/s 22 oom/timeout/crash: 0/0/0 time: 6338s job: 701 dft_time: 0
+#3808264: cov: 460693 ft: 362145 corp: 11627 exec/s 22 oom/timeout/crash: 0/0/0 time: 6341s job: 698 dft_time: 0
+#3814463: cov: 460694 ft: 362146 corp: 11628 exec/s 20 oom/timeout/crash: 0/0/0 time: 6351s job: 702 dft_time: 0
+
+#3815642: cov: 460694 ft: 362146 corp: 11628 exec/s 11 oom/timeout/crash: 0/0/0 time: 6371s job: 722 dft_time: 0
+INFO: log from the inner process:
+INFO: Running with entropic power schedule (0xFF, 100).
+INFO: Seed: 1590042718
+INFO: Loaded 1 modules   (5148280 inline 8-bit counters): 5148280 [0x557595482870, 0x55759596b6e8), 
+INFO: Loaded 1 PC tables (5148280 PCs): 5148280 [0x55759596b6e8,0x55759a7f9e68), 
+INFO:        0 files found in /tmp/libFuzzerTemp.FuzzWithFork571359.dir/C722
+INFO: -max_len is not provided; libFuzzer will not generate inputs larger than 4096 bytes
+INFO: seed corpus: files: 107 min: 10b max: 17b total: 1689b rss: 358Mb
+#16	pulse  cov: 44901 ft: 55266 corp: 14/158b exec/s: 8 rss: 422Mb
+#32	pulse  cov: 50923 ft: 70960 corp: 30/392b exec/s: 8 rss: 449Mb
+#64	pulse  cov: 64217 ft: 102296 corp: 62/924b exec/s: 5 rss: 493Mb
+#108	INITED cov: 75584 ft: 131030 corp: 107/1689b exec/s: 4 rss: 553Mb
+#109	NEW    cov: 75588 ft: 131101 corp: 108/1706b lim: 17 exec/s: 4 rss: 553Mb L: 17/17 MS: 1 CopyPart-
+#110	NEW    cov: 75614 ft: 131163 corp: 109/1717b lim: 17 exec/s: 4 rss: 553Mb L: 11/17 MS: 1 EraseBytes-
+#112	NEW    cov: 75625 ft: 131172 corp: 110/1734b lim: 17 exec/s: 4 rss: 553Mb L: 17/17 MS: 2 ChangeByte-ChangeBit-
+#114	NEW    cov: 75671 ft: 131268 corp: 111/1751b lim: 17 exec/s: 4 rss: 556Mb L: 17/17 MS: 2 CopyPart-ChangeByte-
+#118	NEW    cov: 75672 ft: 131272 corp: 112/1764b lim: 17 exec/s: 4 rss: 558Mb L: 13/17 MS: 4 ChangeBinInt-ShuffleBytes-ChangeByte-InsertRepeatedBytes-
+#119	NEW    cov: 75672 ft: 131276 corp: 113/1780b lim: 17 exec/s: 4 rss: 565Mb L: 16/17 MS: 1 CrossOver-
+#120	NEW    cov: 75696 ft: 131322 corp: 114/1797b lim: 17 exec/s: 4 rss: 565Mb L: 17/17 MS: 1 ChangeBinInt-
+#121	NEW    cov: 75715 ft: 131356 corp: 115/1814b lim: 17 exec/s: 4 rss: 567Mb L: 17/17 MS: 1 ChangeBinInt-
+#122	NEW    cov: 75810 ft: 131549 corp: 116/1831b lim: 17 exec/s: 4 rss: 571Mb L: 17/17 MS: 1 ChangeBinInt-
+#123	NEW    cov: 75810 ft: 131552 corp: 117/1848b lim: 17 exec/s: 4 rss: 571Mb L: 17/17 MS: 1 ChangeBit-
+#125	NEW    cov: 75811 ft: 131557 corp: 118/1865b lim: 17 exec/s: 4 rss: 571Mb L: 17/17 MS: 2 ShuffleBytes-CrossOver-
+#128	pulse  cov: 75811 ft: 131557 corp: 118/1865b lim: 17 exec/s: 4 rss: 571Mb
+#132	NEW    cov: 75811 ft: 131558 corp: 119/1879b lim: 17 exec/s: 4 rss: 573Mb L: 14/17 MS: 2 ShuffleBytes-CMP- DE: "2021"-
+#133	NEW    cov: 75812 ft: 131578 corp: 120/1896b lim: 17 exec/s: 4 rss: 574Mb L: 17/17 MS: 1 CopyPart-
+#134	NEW    cov: 75813 ft: 131580 corp: 121/1912b lim: 17 exec/s: 4 rss: 575Mb L: 16/17 MS: 1 InsertByte-
+#135	NEW    cov: 75813 ft: 131582 corp: 122/1929b lim: 17 exec/s: 4 rss: 575Mb L: 17/17 MS: 1 PersAutoDict- DE: "2021"-
+#136	NEW    cov: 75814 ft: 131719 corp: 123/1942b lim: 17 exec/s: 4 rss: 582Mb L: 13/17 MS: 1 EraseBytes-
+#142	NEW    cov: 75835 ft: 131858 corp: 124/1959b lim: 17 exec/s: 4 rss: 588Mb L: 17/17 MS: 1 PersAutoDict- DE: "2021"-
+#145	NEW    cov: 75835 ft: 131862 corp: 125/1972b lim: 17 exec/s: 4 rss: 591Mb L: 13/17 MS: 3 ShuffleBytes-CopyPart-CrossOver-
+#149	NEW    cov: 75835 ft: 131865 corp: 126/1982b lim: 17 exec/s: 4 rss: 591Mb L: 10/17 MS: 4 PersAutoDict-ChangeASCIIInt-CrossOver-EraseBytes- DE: "2021"-
+#156	NEW    cov: 75835 ft: 131868 corp: 127/1993b lim: 17 exec/s: 4 rss: 600Mb L: 11/17 MS: 2 InsertByte-ChangeBit-
+#157	NEW    cov: 75836 ft: 132034 corp: 128/2000b lim: 17 exec/s: 4 rss: 602Mb L: 7/17 MS: 1 EraseBytes-
+#158	NEW    cov: 75836 ft: 132057 corp: 129/2017b lim: 17 exec/s: 4 rss: 602Mb L: 17/17 MS: 1 CrossOver-
+#159	NEW    cov: 75876 ft: 132093 corp: 130/2034b lim: 17 exec/s: 4 rss: 602Mb L: 17/17 MS: 1 ChangeBinInt-
+#165	NEW    cov: 75876 ft: 132098 corp: 131/2048b lim: 17 exec/s: 5 rss: 605Mb L: 14/17 MS: 1 EraseBytes-
+#166	NEW    cov: 75955 ft: 132306 corp: 132/2060b lim: 17 exec/s: 5 rss: 606Mb L: 12/17 MS: 1 ChangeByte-
+#167	NEW    cov: 75955 ft: 132310 corp: 133/2077b lim: 17 exec/s: 5 rss: 606Mb L: 17/17 MS: 1 ChangeByte-
+#168	NEW    cov: 75955 ft: 132311 corp: 134/2092b lim: 17 exec/s: 5 rss: 607Mb L: 15/17 MS: 1 ChangeBit-
+#172	NEW    cov: 75956 ft: 132314 corp: 135/2103b lim: 17 exec/s: 5 rss: 610Mb L: 11/17 MS: 4 EraseBytes-ChangeByte-ShuffleBytes-PersAutoDict- DE: "2021"-
+#178	NEW    cov: 75987 ft: 132386 corp: 136/2120b lim: 17 exec/s: 5 rss: 615Mb L: 17/17 MS: 1 CrossOver-
+#181	NEW    cov: 75991 ft: 132395 corp: 137/2134b lim: 17 exec/s: 5 rss: 617Mb L: 14/17 MS: 3 ChangeBit-CrossOver-ShuffleBytes-
+#182	NEW    cov: 75991 ft: 132441 corp: 138/2150b lim: 17 exec/s: 5 rss: 618Mb L: 16/17 MS: 1 CopyPart-
+#183	NEW    cov: 75991 ft: 132455 corp: 139/2163b lim: 17 exec/s: 5 rss: 619Mb L: 13/17 MS: 1 CMP- DE: "\"\000\000\000\000\000\000\000"-
+#189	NEW    cov: 76031 ft: 132490 corp: 140/2180b lim: 17 exec/s: 5 rss: 629Mb L: 17/17 MS: 1 ChangeBit-
+#190	NEW    cov: 76083 ft: 132552 corp: 141/2194b lim: 17 exec/s: 5 rss: 629Mb L: 14/17 MS: 1 ShuffleBytes-
+#192	NEW    cov: 76083 ft: 132626 corp: 142/2204b lim: 17 exec/s: 5 rss: 629Mb L: 10/17 MS: 2 CrossOver-EraseBytes-
+#193	NEW    cov: 76084 ft: 132629 corp: 143/2219b lim: 17 exec/s: 5 rss: 629Mb L: 15/17 MS: 1 CopyPart-
+#199	NEW    cov: 76084 ft: 132631 corp: 144/2227b lim: 17 exec/s: 5 rss: 638Mb L: 8/17 MS: 1 EraseBytes-
+#200	NEW    cov: 76085 ft: 132632 corp: 145/2242b lim: 17 exec/s: 5 rss: 638Mb L: 15/17 MS: 1 ShuffleBytes-
+#206	NEW    cov: 76087 ft: 132635 corp: 146/2258b lim: 17 exec/s: 5 rss: 639Mb L: 16/17 MS: 1 ChangeBit-
+#207	NEW    cov: 76108 ft: 132656 corp: 147/2275b lim: 17 exec/s: 5 rss: 640Mb L: 17/17 MS: 1 InsertRepeatedBytes-
+#208	NEW    cov: 76120 ft: 132663 corp: 148/2290b lim: 17 exec/s: 5 rss: 641Mb L: 15/17 MS: 1 ChangeBinInt-
+#209	NEW    cov: 76120 ft: 132665 corp: 149/2307b lim: 17 exec/s: 5 rss: 642Mb L: 17/17 MS: 1 ChangeBinInt-
+#215	REDUCE cov: 76120 ft: 132665 corp: 149/2300b lim: 17 exec/s: 5 rss: 646Mb L: 10/17 MS: 1 EraseBytes-
+#218	NEW    cov: 76133 ft: 132678 corp: 150/2315b lim: 17 exec/s: 5 rss: 648Mb L: 15/17 MS: 3 ShuffleBytes-ChangeByte-ShuffleBytes-
+#220	NEW    cov: 76133 ft: 132691 corp: 151/2327b lim: 17 exec/s: 5 rss: 650Mb L: 12/17 MS: 2 ChangeBinInt-CrossOver-
+#223	NEW    cov: 76167 ft: 132730 corp: 152/2332b lim: 17 exec/s: 5 rss: 652Mb L: 5/17 MS: 3 CopyPart-ShuffleBytes-CrossOver-
+#229	NEW    cov: 76169 ft: 132819 corp: 153/2346b lim: 17 exec/s: 5 rss: 657Mb L: 14/17 MS: 1 EraseBytes-
+#230	NEW    cov: 76169 ft: 132838 corp: 154/2363b lim: 17 exec/s: 5 rss: 658Mb L: 17/17 MS: 1 ShuffleBytes-
+#245	NEW    cov: 76174 ft: 132846 corp: 155/2374b lim: 17 exec/s: 6 rss: 668Mb L: 11/17 MS: 5 InsertRepeatedBytes-PersAutoDict-ChangeASCIIInt-CopyPart-CrossOver- DE: "\"\000\000\000\000\000\000\000"-
+#246	NEW    cov: 76186 ft: 132899 corp: 156/2391b lim: 17 exec/s: 6 rss: 670Mb L: 17/17 MS: 1 ShuffleBytes-
+#247	NEW    cov: 76186 ft: 132902 corp: 157/2405b lim: 17 exec/s: 6 rss: 670Mb L: 14/17 MS: 1 EraseBytes-
+#252	NEW    cov: 76187 ft: 132904 corp: 158/2417b lim: 17 exec/s: 6 rss: 673Mb L: 12/17 MS: 5 EraseBytes-ShuffleBytes-ChangeBinInt-ChangeBinInt-ChangeBinInt-
+#256	pulse  cov: 76187 ft: 132904 corp: 158/2417b lim: 17 exec/s: 6 rss: 676Mb
+#258	NEW    cov: 76187 ft: 132907 corp: 159/2434b lim: 17 exec/s: 5 rss: 678Mb L: 17/17 MS: 1 CopyPart-
+#265	NEW    cov: 76193 ft: 132977 corp: 160/2451b lim: 17 exec/s: 5 rss: 683Mb L: 17/17 MS: 2 ShuffleBytes-ChangeByte-
+#271	NEW    cov: 76193 ft: 133096 corp: 161/2468b lim: 17 exec/s: 5 rss: 696Mb L: 17/17 MS: 1 CrossOver-
+#272	NEW    cov: 76193 ft: 133098 corp: 162/2485b lim: 17 exec/s: 5 rss: 696Mb L: 17/17 MS: 1 CopyPart-
+#279	NEW    cov: 76193 ft: 133101 corp: 163/2494b lim: 17 exec/s: 5 rss: 696Mb L: 9/17 MS: 2 CMP-EraseBytes- DE: "\002\377\377\377"-
+#285	NEW    cov: 76194 ft: 133104 corp: 164/2509b lim: 17 exec/s: 5 rss: 699Mb L: 15/17 MS: 1 InsertByte-
+#287	NEW    cov: 76194 ft: 133105 corp: 165/2521b lim: 17 exec/s: 5 rss: 701Mb L: 12/17 MS: 2 ChangeByte-InsertByte-
+#288	NEW    cov: 76351 ft: 133537 corp: 166/2538b lim: 17 exec/s: 5 rss: 710Mb L: 17/17 MS: 1 ChangeByte-
+#289	NEW    cov: 76351 ft: 133558 corp: 167/2552b lim: 17 exec/s: 5 rss: 710Mb L: 14/17 MS: 1 ShuffleBytes-
+#290	NEW    cov: 76352 ft: 133616 corp: 168/2569b lim: 17 exec/s: 5 rss: 710Mb L: 17/17 MS: 1 CrossOver-
+#291	NEW    cov: 76355 ft: 133634 corp: 169/2586b lim: 17 exec/s: 5 rss: 710Mb L: 17/17 MS: 1 CrossOver-
+#293	NEW    cov: 76355 ft: 133703 corp: 170/2603b lim: 17 exec/s: 5 rss: 715Mb L: 17/17 MS: 2 ShuffleBytes-ShuffleBytes-
+#299	NEW    cov: 76400 ft: 133750 corp: 171/2618b lim: 17 exec/s: 5 rss: 718Mb L: 15/17 MS: 1 ChangeByte-
+#300	NEW    cov: 76400 ft: 133763 corp: 172/2627b lim: 17 exec/s: 5 rss: 718Mb L: 9/17 MS: 1 CrossOver-
+#301	NEW    cov: 76400 ft: 133764 corp: 173/2642b lim: 17 exec/s: 5 rss: 723Mb L: 15/17 MS: 1 CopyPart-
+#305	NEW    cov: 76400 ft: 133765 corp: 174/2656b lim: 17 exec/s: 5 rss: 723Mb L: 14/17 MS: 4 EraseBytes-InsertByte-CopyPart-CrossOver-
+#307	NEW    cov: 76400 ft: 133772 corp: 175/2664b lim: 17 exec/s: 5 rss: 723Mb L: 8/17 MS: 2 ChangeBit-PersAutoDict- DE: "\"\000\000\000\000\000\000\000"-
+#310	NEW    cov: 76400 ft: 133783 corp: 176/2679b lim: 17 exec/s: 5 rss: 723Mb L: 15/17 MS: 3 CrossOver-EraseBytes-InsertByte-
+#312	NEW    cov: 76401 ft: 133785 corp: 177/2696b lim: 17 exec/s: 5 rss: 730Mb L: 17/17 MS: 2 ChangeASCIIInt-CopyPart-
+#317	NEW    cov: 76401 ft: 133786 corp: 178/2701b lim: 17 exec/s: 5 rss: 730Mb L: 5/17 MS: 5 ChangeByte-CrossOver-ChangeByte-ShuffleBytes-CrossOver-
+#318	NEW    cov: 76401 ft: 133787 corp: 179/2718b lim: 17 exec/s: 5 rss: 739Mb L: 17/17 MS: 1 ChangeBit-
+#319	NEW    cov: 76411 ft: 133807 corp: 180/2732b lim: 17 exec/s: 5 rss: 739Mb L: 14/17 MS: 1 ChangeByte-
+#326	NEW    cov: 76411 ft: 133812 corp: 181/2749b lim: 17 exec/s: 5 rss: 739Mb L: 17/17 MS: 2 ShuffleBytes-ChangeBit-
+#327	NEW    cov: 76455 ft: 133845 corp: 182/2759b lim: 17 exec/s: 5 rss: 739Mb L: 10/17 MS: 1 EraseBytes-
+#328	NEW    cov: 76455 ft: 133851 corp: 183/2775b lim: 17 exec/s: 5 rss: 740Mb L: 16/17 MS: 1 CrossOver-
+#337	NEW    cov: 76455 ft: 133856 corp: 184/2787b lim: 17 exec/s: 5 rss: 750Mb L: 12/17 MS: 4 CopyPart-ShuffleBytes-CopyPart-EraseBytes-
+#363	NEW    cov: 76455 ft: 133875 corp: 185/2804b lim: 17 exec/s: 6 rss: 765Mb L: 17/17 MS: 1 CopyPart-
+#371	NEW    cov: 76457 ft: 133877 corp: 186/2811b lim: 17 exec/s: 6 rss: 771Mb L: 7/17 MS: 3 EraseBytes-CrossOver-PersAutoDict- DE: "2021"-
+#378	NEW    cov: 76464 ft: 133880 corp: 187/2824b lim: 17 exec/s: 6 rss: 776Mb L: 13/17 MS: 2 EraseBytes-InsertByte-
+#384	NEW    cov: 76475 ft: 134289 corp: 188/2841b lim: 17 exec/s: 6 rss: 789Mb L: 17/17 MS: 1 ChangeBit-
+#385	NEW    cov: 76503 ft: 134341 corp: 189/2858b lim: 17 exec/s: 6 rss: 789Mb L: 17/17 MS: 1 CrossOver-
+#386	NEW    cov: 76503 ft: 134345 corp: 190/2871b lim: 17 exec/s: 6 rss: 789Mb L: 13/17 MS: 1 EraseBytes-
+#392	NEW    cov: 76503 ft: 134348 corp: 191/2886b lim: 17 exec/s: 6 rss: 789Mb L: 15/17 MS: 1 CrossOver-
+#393	NEW    cov: 76522 ft: 134366 corp: 192/2903b lim: 17 exec/s: 6 rss: 790Mb L: 17/17 MS: 1 CrossOver-
+#394	NEW    cov: 76522 ft: 134389 corp: 193/2913b lim: 17 exec/s: 6 rss: 790Mb L: 10/17 MS: 1 EraseBytes-
+#396	NEW    cov: 76523 ft: 134398 corp: 194/2930b lim: 17 exec/s: 6 rss: 791Mb L: 17/17 MS: 2 CrossOver-ChangeByte-
+#413	NEW    cov: 76523 ft: 134399 corp: 195/2944b lim: 17 exec/s: 6 rss: 802Mb L: 14/17 MS: 2 ChangeBinInt-CMP- DE: "\010\000\000\000\000\000\000\000"-
+#414	NEW    cov: 76523 ft: 134408 corp: 196/2961b lim: 17 exec/s: 6 rss: 802Mb L: 17/17 MS: 1 ShuffleBytes-
+#415	NEW    cov: 76524 ft: 134418 corp: 197/2978b lim: 17 exec/s: 6 rss: 802Mb L: 17/17 MS: 1 CrossOver-
+#416	NEW    cov: 76527 ft: 134426 corp: 198/2988b lim: 17 exec/s: 6 rss: 806Mb L: 10/17 MS: 1 ChangeBit-
+#417	NEW    cov: 76533 ft: 134662 corp: 199/3005b lim: 17 exec/s: 6 rss: 809Mb L: 17/17 MS: 1 ChangeBit-
+#418	NEW    cov: 76533 ft: 134690 corp: 200/3022b lim: 17 exec/s: 6 rss: 809Mb L: 17/17 MS: 1 PersAutoDict- DE: "\010\000\000\000\000\000\000\000"-
+#425	NEW    cov: 76533 ft: 134698 corp: 201/3038b lim: 17 exec/s: 6 rss: 809Mb L: 16/17 MS: 2 ShuffleBytes-CMP- DE: "\000\000\000\004"-
+#426	NEW    cov: 76537 ft: 134752 corp: 202/3055b lim: 17 exec/s: 6 rss: 809Mb L: 17/17 MS: 1 ChangeBit-
+#437	NEW    cov: 76543 ft: 134820 corp: 203/3072b lim: 17 exec/s: 6 rss: 809Mb L: 17/17 MS: 1 ShuffleBytes-
+#442	NEW    cov: 76545 ft: 134833 corp: 204/3089b lim: 17 exec/s: 6 rss: 809Mb L: 17/17 MS: 5 ChangeASCIIInt-ChangeByte-CopyPart-ShuffleBytes-CrossOver-
+#448	NEW    cov: 76545 ft: 134837 corp: 205/3106b lim: 17 exec/s: 7 rss: 809Mb L: 17/17 MS: 1 ShuffleBytes-
+#449	NEW    cov: 76545 ft: 134839 corp: 206/3119b lim: 17 exec/s: 7 rss: 809Mb L: 13/17 MS: 1 EraseBytes-
+#450	NEW    cov: 76545 ft: 134866 corp: 207/3136b lim: 17 exec/s: 7 rss: 809Mb L: 17/17 MS: 1 PersAutoDict- DE: "\000\000\000\004"-
+#454	NEW    cov: 76545 ft: 134867 corp: 208/3153b lim: 17 exec/s: 7 rss: 809Mb L: 17/17 MS: 4 ShuffleBytes-ChangeBit-ShuffleBytes-PersAutoDict- DE: "\"\000\000\000\000\000\000\000"-
+#467	REDUCE cov: 76545 ft: 134867 corp: 208/3152b lim: 17 exec/s: 7 rss: 809Mb L: 16/17 MS: 3 ChangeByte-PersAutoDict-EraseBytes- DE: "2021"-
+#474	NEW    cov: 76547 ft: 134951 corp: 209/3169b lim: 17 exec/s: 7 rss: 809Mb L: 17/17 MS: 2 ChangeBit-CrossOver-
+#485	NEW    cov: 76594 ft: 134999 corp: 210/3186b lim: 17 exec/s: 7 rss: 813Mb L: 17/17 MS: 1 PersAutoDict- DE: "2021"-
+#486	NEW    cov: 76607 ft: 135082 corp: 211/3203b lim: 17 exec/s: 7 rss: 813Mb L: 17/17 MS: 1 CrossOver-
+#487	NEW    cov: 76607 ft: 135083 corp: 212/3218b lim: 17 exec/s: 7 rss: 813Mb L: 15/17 MS: 1 ChangeByte-
+#490	REDUCE cov: 76607 ft: 135083 corp: 212/3217b lim: 17 exec/s: 7 rss: 813Mb L: 11/17 MS: 3 InsertByte-CopyPart-CrossOver-
+#491	NEW    cov: 76617 ft: 135089 corp: 213/3234b lim: 17 exec/s: 7 rss: 813Mb L: 17/17 MS: 1 ChangeByte-
+#493	NEW    cov: 76617 ft: 135092 corp: 214/3251b lim: 17 exec/s: 7 rss: 813Mb L: 17/17 MS: 2 ShuffleBytes-CopyPart-
+#499	NEW    cov: 76622 ft: 135102 corp: 215/3268b lim: 17 exec/s: 7 rss: 813Mb L: 17/17 MS: 1 ChangeByte-
+#506	NEW    cov: 76622 ft: 135103 corp: 216/3277b lim: 17 exec/s: 7 rss: 813Mb L: 9/17 MS: 2 EraseBytes-ChangeByte-
+#507	NEW    cov: 76622 ft: 135105 corp: 217/3294b lim: 17 exec/s: 7 rss: 813Mb L: 17/17 MS: 1 InsertRepeatedBytes-
+#508	NEW    cov: 76679 ft: 135192 corp: 218/3311b lim: 17 exec/s: 7 rss: 813Mb L: 17/17 MS: 1 ChangeBit-
+#512	pulse  cov: 76679 ft: 135192 corp: 218/3311b lim: 17 exec/s: 7 rss: 813Mb
+#520	NEW    cov: 76680 ft: 135193 corp: 219/3328b lim: 17 exec/s: 7 rss: 813Mb L: 17/17 MS: 2 ShuffleBytes-ChangeByte-
+#522	NEW    cov: 76876 ft: 136635 corp: 220/3345b lim: 17 exec/s: 7 rss: 814Mb L: 17/17 MS: 2 CopyPart-ChangeByte-
+#539	NEW    cov: 76876 ft: 136638 corp: 221/3359b lim: 17 exec/s: 7 rss: 814Mb L: 14/17 MS: 2 PersAutoDict-ShuffleBytes- DE: "\010\000\000\000\000\000\000\000"-
+#550	NEW    cov: 76876 ft: 136641 corp: 222/3376b lim: 17 exec/s: 7 rss: 814Mb L: 17/17 MS: 1 ShuffleBytes-
+#552	NEW    cov: 76876 ft: 136642 corp: 223/3383b lim: 17 exec/s: 7 rss: 814Mb L: 7/17 MS: 2 ChangeByte-PersAutoDict- DE: "2021"-
+#554	NEW    cov: 76888 ft: 136671 corp: 224/3399b lim: 17 exec/s: 7 rss: 820Mb L: 16/17 MS: 2 CopyPart-ShuffleBytes-
+#555	NEW    cov: 76889 ft: 136674 corp: 225/3414b lim: 17 exec/s: 7 rss: 820Mb L: 15/17 MS: 1 ChangeByte-
+#556	NEW    cov: 76889 ft: 136675 corp: 226/3431b lim: 17 exec/s: 7 rss: 820Mb L: 17/17 MS: 1 CMP- DE: "\011\000\000\000\000\000\000\000"-
+#568	NEW    cov: 76889 ft: 136691 corp: 227/3445b lim: 17 exec/s: 8 rss: 820Mb L: 14/17 MS: 2 EraseBytes-CMP- DE: "`<`"-
+#589	NEW    cov: 76889 ft: 136699 corp: 228/3462b lim: 17 exec/s: 8 rss: 820Mb L: 17/17 MS: 1 ChangeBit-
+#611	NEW    cov: 76889 ft: 136767 corp: 229/3476b lim: 17 exec/s: 8 rss: 820Mb L: 14/17 MS: 2 ChangeBit-ChangeBit-
+#627	NEW    cov: 76889 ft: 136768 corp: 230/3493b lim: 17 exec/s: 8 rss: 820Mb L: 17/17 MS: 1 ChangeByte-
+#629	REDUCE cov: 76889 ft: 136768 corp: 230/3492b lim: 17 exec/s: 8 rss: 820Mb L: 16/17 MS: 2 ShuffleBytes-EraseBytes-
+#637	NEW    cov: 76889 ft: 136769 corp: 231/3509b lim: 17 exec/s: 8 rss: 820Mb L: 17/17 MS: 3 CopyPart-ChangeBit-ChangeBinInt-
+#638	NEW    cov: 76891 ft: 136801 corp: 232/3526b lim: 17 exec/s: 8 rss: 820Mb L: 17/17 MS: 1 CopyPart-
+#641	NEW    cov: 76891 ft: 136802 corp: 233/3540b lim: 17 exec/s: 8 rss: 820Mb L: 14/17 MS: 3 ChangeBinInt-ChangeBit-EraseBytes-
+#667	NEW    cov: 76891 ft: 136804 corp: 234/3557b lim: 17 exec/s: 8 rss: 820Mb L: 17/17 MS: 1 PersAutoDict- DE: "2021"-
+#673	NEW    cov: 76891 ft: 136805 corp: 235/3574b lim: 17 exec/s: 8 rss: 820Mb L: 17/17 MS: 1 ChangeByte-
+#676	NEW    cov: 76893 ft: 136809 corp: 236/3575b lim: 17 exec/s: 8 rss: 820Mb L: 1/17 MS: 3 CopyPart-CrossOver-CrossOver-
+#677	NEW    cov: 76894 ft: 136810 corp: 237/3592b lim: 17 exec/s: 8 rss: 820Mb L: 17/17 MS: 1 ShuffleBytes-
+#688	NEW    cov: 76894 ft: 136879 corp: 238/3609b lim: 17 exec/s: 8 rss: 820Mb L: 17/17 MS: 1 CopyPart-
+#689	NEW    cov: 76894 ft: 136880 corp: 239/3626b lim: 17 exec/s: 8 rss: 820Mb L: 17/17 MS: 1 PersAutoDict- DE: "\000\000\000\004"-
+#691	NEW    cov: 76894 ft: 136882 corp: 240/3640b lim: 17 exec/s: 8 rss: 820Mb L: 14/17 MS: 2 CopyPart-CopyPart-
+#692	NEW    cov: 76894 ft: 136884 corp: 241/3657b lim: 17 exec/s: 8 rss: 820Mb L: 17/17 MS: 1 CrossOver-
+#699	NEW    cov: 76894 ft: 136887 corp: 242/3667b lim: 17 exec/s: 8 rss: 820Mb L: 10/17 MS: 2 InsertRepeatedBytes-EraseBytes-
+#712	NEW    cov: 76897 ft: 136892 corp: 243/3684b lim: 17 exec/s: 9 rss: 820Mb L: 17/17 MS: 3 PersAutoDict-ChangeBinInt-ChangeByte- DE: "\010\000\000\000\000\000\000\000"-
+#717	NEW    cov: 76901 ft: 136920 corp: 244/3699b lim: 17 exec/s: 8 rss: 821Mb L: 15/17 MS: 5 ShuffleBytes-EraseBytes-InsertByte-ShuffleBytes-ShuffleBytes-
+#749	NEW    cov: 76910 ft: 136928 corp: 245/3704b lim: 17 exec/s: 9 rss: 821Mb L: 5/17 MS: 2 ShuffleBytes-CrossOver-
+#756	NEW    cov: 76910 ft: 136929 corp: 246/3719b lim: 17 exec/s: 9 rss: 821Mb L: 15/17 MS: 2 CopyPart-EraseBytes-
+#762	NEW    cov: 76910 ft: 136934 corp: 247/3736b lim: 17 exec/s: 9 rss: 821Mb L: 17/17 MS: 1 ChangeByte-
+#774	NEW    cov: 76910 ft: 136938 corp: 248/3740b lim: 17 exec/s: 9 rss: 821Mb L: 4/17 MS: 2 ShuffleBytes-CrossOver-
+#777	NEW    cov: 76910 ft: 136950 corp: 249/3757b lim: 17 exec/s: 9 rss: 821Mb L: 17/17 MS: 3 InsertRepeatedBytes-ChangeByte-CopyPart-
+#779	NEW    cov: 76922 ft: 136964 corp: 250/3774b lim: 17 exec/s: 9 rss: 821Mb L: 17/17 MS: 2 ChangeASCIIInt-PersAutoDict- DE: "\000\000\000\004"-
+#795	NEW    cov: 76933 ft: 136979 corp: 251/3790b lim: 17 exec/s: 9 rss: 821Mb L: 16/17 MS: 1 ShuffleBytes-
+#803	NEW    cov: 76933 ft: 136989 corp: 252/3800b lim: 17 exec/s: 9 rss: 823Mb L: 10/17 MS: 3 EraseBytes-PersAutoDict-CopyPart- DE: "`<`"-
+#831	NEW    cov: 76934 ft: 136991 corp: 253/3814b lim: 17 exec/s: 9 rss: 823Mb L: 14/17 MS: 3 CopyPart-ChangeByte-ChangeBinInt-
+#832	NEW    cov: 76934 ft: 136992 corp: 254/3831b lim: 17 exec/s: 9 rss: 823Mb L: 17/17 MS: 1 ShuffleBytes-
+#851	NEW    cov: 76934 ft: 136993 corp: 255/3840b lim: 17 exec/s: 9 rss: 823Mb L: 9/17 MS: 4 ChangeByte-EraseBytes-InsertByte-EraseBytes-
+#857	NEW    cov: 76934 ft: 137018 corp: 256/3857b lim: 17 exec/s: 9 rss: 823Mb L: 17/17 MS: 1 CrossOver-
+#881	REDUCE cov: 76934 ft: 137025 corp: 257/3859b lim: 17 exec/s: 10 rss: 823Mb L: 2/17 MS: 4 PersAutoDict-CopyPart-CrossOver-CrossOver- DE: "\000\000\000\004"-
+#888	REDUCE cov: 76934 ft: 137025 corp: 257/3856b lim: 17 exec/s: 10 rss: 823Mb L: 5/17 MS: 2 ChangeByte-EraseBytes-
+#904	NEW    cov: 76934 ft: 137060 corp: 258/3873b lim: 17 exec/s: 10 rss: 823Mb L: 17/17 MS: 1 ChangeBit-
+#912	REDUCE cov: 76939 ft: 137068 corp: 259/3889b lim: 17 exec/s: 10 rss: 823Mb L: 16/17 MS: 3 ChangeBit-ChangeBinInt-PersAutoDict- DE: "`<`"-
+#913	NEW    cov: 76939 ft: 137242 corp: 260/3898b lim: 17 exec/s: 10 rss: 823Mb L: 9/17 MS: 1 EraseBytes-
+#926	REDUCE cov: 76939 ft: 137242 corp: 260/3897b lim: 17 exec/s: 10 rss: 823Mb L: 4/17 MS: 3 ChangeByte-ShuffleBytes-EraseBytes-
+#927	NEW    cov: 76943 ft: 137247 corp: 261/3913b lim: 17 exec/s: 10 rss: 823Mb L: 16/17 MS: 1 EraseBytes-
+#949	NEW    cov: 76944 ft: 137322 corp: 262/3930b lim: 17 exec/s: 10 rss: 823Mb L: 17/17 MS: 2 ChangeBit-ChangeBinInt-
+#950	NEW    cov: 76944 ft: 137323 corp: 263/3947b lim: 17 exec/s: 10 rss: 823Mb L: 17/17 MS: 1 ChangeBit-
+#959	NEW    cov: 76944 ft: 137324 corp: 264/3961b lim: 17 exec/s: 10 rss: 823Mb L: 14/17 MS: 4 PersAutoDict-CrossOver-CopyPart-ChangeByte- DE: "\010\000\000\000\000\000\000\000"-
+#965	NEW    cov: 76944 ft: 137329 corp: 265/3978b lim: 17 exec/s: 10 rss: 823Mb L: 17/17 MS: 1 ShuffleBytes-
+#967	REDUCE cov: 76944 ft: 137329 corp: 265/3974b lim: 17 exec/s: 10 rss: 823Mb L: 6/17 MS: 2 ShuffleBytes-EraseBytes-
+#973	NEW    cov: 76944 ft: 137342 corp: 266/3988b lim: 17 exec/s: 10 rss: 823Mb L: 14/17 MS: 1 ChangeBit-
+#979	NEW    cov: 76951 ft: 137385 corp: 267/4003b lim: 17 exec/s: 10 rss: 823Mb L: 15/17 MS: 1 CMP- DE: "2021"-
+#980	NEW    cov: 76952 ft: 137386 corp: 268/4018b lim: 17 exec/s: 10 rss: 823Mb L: 15/17 MS: 1 CopyPart-
+#999	NEW    cov: 76952 ft: 137388 corp: 269/4035b lim: 17 exec/s: 10 rss: 823Mb L: 17/17 MS: 4 ShuffleBytes-ShuffleBytes-CopyPart-ChangeBit-
+#1000	NEW    cov: 76956 ft: 137400 corp: 270/4051b lim: 17 exec/s: 10 rss: 823Mb L: 16/17 MS: 1 ChangeBit-
+#1006	NEW    cov: 76956 ft: 137402 corp: 271/4065b lim: 17 exec/s: 10 rss: 823Mb L: 14/17 MS: 1 CrossOver-
+#1007	NEW    cov: 76956 ft: 137407 corp: 272/4082b lim: 17 exec/s: 10 rss: 823Mb L: 17/17 MS: 1 ChangeByte-
+#1008	NEW    cov: 76981 ft: 137430 corp: 273/4099b lim: 17 exec/s: 10 rss: 823Mb L: 17/17 MS: 1 CrossOver-
+#1012	NEW    cov: 76989 ft: 137438 corp: 274/4115b lim: 17 exec/s: 10 rss: 823Mb L: 16/17 MS: 4 CrossOver-ShuffleBytes-ShuffleBytes-CrossOver-
+#1013	NEW    cov: 76989 ft: 137456 corp: 275/4120b lim: 17 exec/s: 10 rss: 823Mb L: 5/17 MS: 1 CrossOver-
+#1020	NEW    cov: 76991 ft: 137458 corp: 276/4133b lim: 17 exec/s: 10 rss: 823Mb L: 13/17 MS: 2 ShuffleBytes-CopyPart-
+#1024	pulse  cov: 76991 ft: 137458 corp: 276/4133b lim: 17 exec/s: 10 rss: 823Mb
+#1034	NEW    cov: 76995 ft: 137528 corp: 277/4145b lim: 17 exec/s: 11 rss: 823Mb L: 12/17 MS: 4 CrossOver-ChangeBit-EraseBytes-CopyPart-
+#1046	NEW    cov: 77004 ft: 137582 corp: 278/4162b lim: 17 exec/s: 11 rss: 823Mb L: 17/17 MS: 2 ChangeBit-ChangeBinInt-
+#1052	NEW    cov: 77005 ft: 137585 corp: 279/4174b lim: 17 exec/s: 11 rss: 823Mb L: 12/17 MS: 1 EraseBytes-
+#1056	REDUCE cov: 77005 ft: 137585 corp: 279/4171b lim: 17 exec/s: 11 rss: 823Mb L: 11/17 MS: 4 InsertByte-ChangeByte-InsertByte-EraseBytes-
+#1064	NEW    cov: 77005 ft: 137586 corp: 280/4184b lim: 17 exec/s: 11 rss: 823Mb L: 13/17 MS: 3 PersAutoDict-CopyPart-CrossOver- DE: "\"\000\000\000\000\000\000\000"-
+#1065	REDUCE cov: 77005 ft: 137592 corp: 281/4187b lim: 17 exec/s: 11 rss: 823Mb L: 3/17 MS: 1 EraseBytes-
+#1066	NEW    cov: 77005 ft: 137595 corp: 282/4202b lim: 17 exec/s: 11 rss: 823Mb L: 15/17 MS: 1 ChangeBit-
+#1080	NEW    cov: 77005 ft: 137597 corp: 283/4215b lim: 17 exec/s: 11 rss: 823Mb L: 13/17 MS: 4 ChangeByte-CrossOver-CrossOver-InsertRepeatedBytes-
+#1083	NEW    cov: 77006 ft: 137598 corp: 284/4229b lim: 17 exec/s: 11 rss: 823Mb L: 14/17 MS: 3 ChangeBit-ChangeByte-ChangeBit-
+#1099	NEW    cov: 77025 ft: 137664 corp: 285/4245b lim: 17 exec/s: 11 rss: 823Mb L: 16/17 MS: 1 ChangeBit-
+#1109	NEW    cov: 77025 ft: 137665 corp: 286/4261b lim: 17 exec/s: 11 rss: 823Mb L: 16/17 MS: 5 ChangeBit-EraseBytes-InsertRepeatedBytes-ChangeBinInt-CopyPart-
+#1115	NEW    cov: 77025 ft: 137666 corp: 287/4274b lim: 17 exec/s: 11 rss: 823Mb L: 13/17 MS: 1 EraseBytes-
+#1126	NEW    cov: 77026 ft: 137668 corp: 288/4287b lim: 17 exec/s: 11 rss: 823Mb L: 13/17 MS: 1 EraseBytes-
+#1127	NEW    cov: 77029 ft: 137709 corp: 289/4299b lim: 17 exec/s: 11 rss: 823Mb L: 12/17 MS: 1 EraseBytes-
+#1128	NEW    cov: 77030 ft: 137710 corp: 290/4307b lim: 17 exec/s: 11 rss: 823Mb L: 8/17 MS: 1 InsertByte-
+thread 'rustc' panicked at /home/soyeon/llm-rust/fuzz-rustc/rust/compiler/rustc_errors/src/diagnostic.rs:580:9:
+assertion `left == right` failed: suggestion must not have overlapping parts
+  left: Some([SubstitutionPart { span: fuzz_input.rs:1:12: 1:16 (#0), snippet: "" }, SubstitutionPart { span: fuzz_input.rs:1:15: 1:16 (#0), snippet: ", .. }" }])
+ right: None
+note: run with `RUST_BACKTRACE=1` environment variable to display a backtrace
+==137110== ERROR: libFuzzer: deadly signal
+    #0 0x557583255901 in __sanitizer_print_stack_trace /rustc/llvm/src/llvm-project/compiler-rt/lib/asan/asan_stack.cpp:87:3
+    #1 0x557591a37ac0 in fuzzer::PrintStackTrace() (/home/soyeon/llm-rust/fuzz-rustc/target/x86_64-unknown-linux-gnu/release/fuzz_target+0x183d6ac0) (BuildId: 126b63024afe38292f0f3eb1564f13953796f655)
+    #2 0x557591a22cca in fuzzer::Fuzzer::CrashCallback() (/home/soyeon/llm-rust/fuzz-rustc/target/x86_64-unknown-linux-gnu/release/fuzz_target+0x183c1cca) (BuildId: 126b63024afe38292f0f3eb1564f13953796f655)
+    #3 0x7f85b954141f  (/lib/x86_64-linux-gnu/libpthread.so.0+0x1441f) (BuildId: 0c044ba611aeeeaebb8374e660061f341ebc0bac)
+    #4 0x7f85b922d00a in __libc_signal_restore_set /build/glibc-wuryBv/glibc-2.31/signal/../sysdeps/unix/sysv/linux/internal-signals.h:86:3
+    #5 0x7f85b922d00a in raise /build/glibc-wuryBv/glibc-2.31/signal/../sysdeps/unix/sysv/linux/raise.c:48:3
+    #6 0x7f85b920c858 in abort /build/glibc-wuryBv/glibc-2.31/stdlib/abort.c:79:7
+    #7 0x557591a9b2f6 in std::sys::pal::unix::abort_internal::h6262fe410407344a /rustc/1a648b397dedc98ada3dd3360f6d661ec2436c56/library/std/src/sys/pal/unix/mod.rs:371:14
+    #8 0x5575831c23b6 in std::process::abort::hd577488466449d8a /rustc/1a648b397dedc98ada3dd3360f6d661ec2436c56/library/std/src/process.rs:2279:5
+    #9 0x557591a20736 in libfuzzer_sys::initialize::_$u7b$$u7b$closure$u7d$$u7d$::h0192bcf0408706d4 libfuzzer_sys.57297d71e5d9b432-cgu.0
+    #10 0x557591a94385 in _$LT$alloc..boxed..Box$LT$F$C$A$GT$$u20$as$u20$core..ops..function..Fn$LT$Args$GT$$GT$::call::hc543a528b9bc2dd2 /rustc/1a648b397dedc98ada3dd3360f6d661ec2436c56/library/alloc/src/boxed.rs:2030:9
+    #11 0x557591a94385 in std::panicking::rust_panic_with_hook::haac9f65a4111ce33 /rustc/1a648b397dedc98ada3dd3360f6d661ec2436c56/library/std/src/panicking.rs:785:13
+    #12 0x557591a940d1 in std::panicking::begin_panic_handler::_$u7b$$u7b$closure$u7d$$u7d$::h6a452ac7fecf7288 /rustc/1a648b397dedc98ada3dd3360f6d661ec2436c56/library/std/src/panicking.rs:659:13
+    #13 0x557591a92875 in std::sys_common::backtrace::__rust_end_short_backtrace::ha4c176c669fc3286 /rustc/1a648b397dedc98ada3dd3360f6d661ec2436c56/library/std/src/sys_common/backtrace.rs:171:18
+    #14 0x557591a93e23 in rust_begin_unwind /rustc/1a648b397dedc98ada3dd3360f6d661ec2436c56/library/std/src/panicking.rs:647:5
+    #15 0x5575831c48f4 in core::panicking::panic_fmt::hfae197985af26789 /rustc/1a648b397dedc98ada3dd3360f6d661ec2436c56/library/core/src/panicking.rs:72:14
+    #16 0x5575831c4e5e in core::panicking::assert_failed_inner::he10d677b27749a5e /rustc/1a648b397dedc98ada3dd3360f6d661ec2436c56/library/core/src/panicking.rs:337:23
+    #17 0x557582f2734e in core::panicking::assert_failed::h022a94622f5eca48 (/home/soyeon/llm-rust/fuzz-rustc/target/x86_64-unknown-linux-gnu/release/fuzz_target+0x98c634e) (BuildId: 126b63024afe38292f0f3eb1564f13953796f655)
+    #18 0x55758fa4059a in rustc_errors::diagnostic::Diagnostic::multipart_suggestion_with_style::hcd3267df2772a564 (/home/soyeon/llm-rust/fuzz-rustc/target/x86_64-unknown-linux-gnu/release/fuzz_target+0x163df59a) (BuildId: 126b63024afe38292f0f3eb1564f13953796f655)
+    #19 0x55758fa553be in rustc_errors::diagnostic_builder::DiagnosticBuilder$LT$G$GT$::multipart_suggestion::h2e9d154473a7fc90 (/home/soyeon/llm-rust/fuzz-rustc/target/x86_64-unknown-linux-gnu/release/fuzz_target+0x163f43be) (BuildId: 126b63024afe38292f0f3eb1564f13953796f655)
+    #20 0x55758f6af46e in rustc_parse::parser::pat::_$LT$impl$u20$rustc_parse..parser..Parser$GT$::parse_pat_struct::h3cde255e4c71a054 rustc_parse.9219a23417ef50de-cgu.00
+    #21 0x55758f692442 in rustc_parse::parser::pat::_$LT$impl$u20$rustc_parse..parser..Parser$GT$::parse_pat_with_range_pat::hb656e3e3590737d5 rustc_parse.9219a23417ef50de-cgu.00
+    #22 0x55758f685e9c in rustc_parse::parser::pat::_$LT$impl$u20$rustc_parse..parser..Parser$GT$::parse_pat_with_range_pat::hb656e3e3590737d5 rustc_parse.9219a23417ef50de-cgu.00
+    #23 0x55758f533f5b in rustc_parse::parser::expr::_$LT$impl$u20$rustc_parse..parser..Parser$GT$::parse_fn_block_param::_$u7b$$u7b$closure$u7d$$u7d$::h56ea168e5bad9620 rustc_parse.9219a23417ef50de-cgu.00
+    #24 0x55758f5309b0 in rustc_parse::parser::expr::_$LT$impl$u20$rustc_parse..parser..Parser$GT$::parse_fn_block_param::h0e3ef04c9c65f0bb rustc_parse.9219a23417ef50de-cgu.00
+    #25 0x55758f526e3f in rustc_parse::parser::expr::_$LT$impl$u20$rustc_parse..parser..Parser$GT$::parse_expr_closure::hfdff94eb0410efa9 rustc_parse.9219a23417ef50de-cgu.00
+    #26 0x55758f4b466a in rustc_parse::parser::expr::_$LT$impl$u20$rustc_parse..parser..Parser$GT$::parse_expr_dot_or_call::_$u7b$$u7b$closure$u7d$$u7d$::hbdf3d2624059f059 rustc_parse.9219a23417ef50de-cgu.00
+    #27 0x55758f3f0bcf in rustc_parse::parser::attr_wrapper::_$LT$impl$u20$rustc_parse..parser..Parser$GT$::collect_tokens_trailing_token::hd40c949d375079e4 rustc_parse.9219a23417ef50de-cgu.00
+    #28 0x55758f497d1b in rustc_parse::parser::expr::_$LT$impl$u20$rustc_parse..parser..Parser$GT$::parse_expr_prefix::h1f8fe1411940e071 rustc_parse.9219a23417ef50de-cgu.00
+    #29 0x55758f48323b in rustc_parse::parser::expr::_$LT$impl$u20$rustc_parse..parser..Parser$GT$::parse_expr_assoc_with::hf4e9cf8a82387538 (/home/soyeon/llm-rust/fuzz-rustc/target/x86_64-unknown-linux-gnu/release/fuzz_target+0x15e2223b) (BuildId: 126b63024afe38292f0f3eb1564f13953796f655)
+    #30 0x55758f6e4664 in rustc_parse::parser::path::_$LT$impl$u20$rustc_parse..parser..Parser$GT$::parse_generic_arg::hcd753fc2d0c3ae91 rustc_parse.9219a23417ef50de-cgu.00
+    #31 0x55758f6da18f in rustc_parse::parser::path::_$LT$impl$u20$rustc_parse..parser..Parser$GT$::parse_angle_args::h528b572e8afb2908 rustc_parse.9219a23417ef50de-cgu.00
+    #32 0x55758f6d012e in rustc_parse::parser::path::_$LT$impl$u20$rustc_parse..parser..Parser$GT$::parse_path_segment::h8ec906d63becc3cd rustc_parse.9219a23417ef50de-cgu.00
+    #33 0x55758f6c97bd in rustc_parse::parser::path::_$LT$impl$u20$rustc_parse..parser..Parser$GT$::parse_path_segments::he3898579582c88c8 rustc_parse.9219a23417ef50de-cgu.00
+    #34 0x55758f6c4779 in rustc_parse::parser::path::_$LT$impl$u20$rustc_parse..parser..Parser$GT$::parse_path_inner::hcb666657bfcc47b4 rustc_parse.9219a23417ef50de-cgu.00
+    #35 0x55758f731d5a in rustc_parse::parser::ty::_$LT$impl$u20$rustc_parse..parser..Parser$GT$::parse_path_start_ty::hd479438ca0cc0ba5 rustc_parse.9219a23417ef50de-cgu.00
+    #36 0x55758f71ab30 in rustc_parse::parser::ty::_$LT$impl$u20$rustc_parse..parser..Parser$GT$::parse_ty_common::h27951f96ad038189 rustc_parse.9219a23417ef50de-cgu.00
+    #37 0x55758f719c4e in rustc_parse::parser::ty::_$LT$impl$u20$rustc_parse..parser..Parser$GT$::parse_ty_common::h27951f96ad038189 rustc_parse.9219a23417ef50de-cgu.00
+    #38 0x55758f5ad04c in rustc_parse::parser::generics::_$LT$impl$u20$rustc_parse..parser..Parser$GT$::parse_ty_where_predicate::h376a7df77257fd22 rustc_parse.9219a23417ef50de-cgu.00
+    #39 0x55758f59d561 in rustc_parse::parser::generics::_$LT$impl$u20$rustc_parse..parser..Parser$GT$::parse_generic_params::_$u7b$$u7b$closure$u7d$$u7d$::he203e1feb4a36e5c rustc_parse.9219a23417ef50de-cgu.00
+    #40 0x55758f5981a8 in rustc_parse::parser::generics::_$LT$impl$u20$rustc_parse..parser..Parser$GT$::parse_generic_params::heae5d3baf2fe53a8 rustc_parse.9219a23417ef50de-cgu.00
+    #41 0x55758f5a1baf in rustc_parse::parser::generics::_$LT$impl$u20$rustc_parse..parser..Parser$GT$::parse_generics::hd496b00ddbb72857 rustc_parse.9219a23417ef50de-cgu.00
+    #42 0x55758f3f72c1 in rustc_parse::parser::diagnostics::_$LT$impl$u20$rustc_parse..parser..Parser$GT$::expected_ident_found::h7047b9ce1f66fc72 rustc_parse.9219a23417ef50de-cgu.00
+    #43 0x55758f749f37 in rustc_parse::parser::Parser::parse_ident_common::h6cb1a62ec32d2892 rustc_parse.9219a23417ef50de-cgu.00
+    #44 0x55758f645417 in rustc_parse::parser::item::_$LT$impl$u20$rustc_parse..parser..Parser$GT$::parse_fn::hf1249b923274c22e rustc_parse.9219a23417ef50de-cgu.00
+    #45 0x55758f5bf27a in rustc_parse::parser::item::_$LT$impl$u20$rustc_parse..parser..Parser$GT$::parse_item_kind::hcaee0b4d7f39d70f rustc_parse.9219a23417ef50de-cgu.00
+    #46 0x55758f5b89d5 in rustc_parse::parser::item::_$LT$impl$u20$rustc_parse..parser..Parser$GT$::parse_item_common::hefc84a5bd74e6565 rustc_parse.9219a23417ef50de-cgu.00
+    #47 0x55758f5b6fcf in rustc_parse::parser::item::_$LT$impl$u20$rustc_parse..parser..Parser$GT$::parse_item_::h6889254e4b9109d0 rustc_parse.9219a23417ef50de-cgu.00
+    #48 0x55758f5b4f30 in rustc_parse::parser::item::_$LT$impl$u20$rustc_parse..parser..Parser$GT$::parse_mod::h24324cd668ac3980 (/home/soyeon/llm-rust/fuzz-rustc/target/x86_64-unknown-linux-gnu/release/fuzz_target+0x15f53f30) (BuildId: 126b63024afe38292f0f3eb1564f13953796f655)
+    #49 0x55758f5b2da7 in rustc_parse::parser::item::_$LT$impl$u20$rustc_parse..parser..Parser$GT$::parse_crate_mod::hf3c55802c24573cd (/home/soyeon/llm-rust/fuzz-rustc/target/x86_64-unknown-linux-gnu/release/fuzz_target+0x15f51da7) (BuildId: 126b63024afe38292f0f3eb1564f13953796f655)
+    #50 0x55758fadf7e3 in rustc_parse::parse_crate_from_file::h65f1c4d93cc8bd52 (/home/soyeon/llm-rust/fuzz-rustc/target/x86_64-unknown-linux-gnu/release/fuzz_target+0x1647e7e3) (BuildId: 126b63024afe38292f0f3eb1564f13953796f655)
+    #51 0x55758376a50c in rustc_session::utils::_$LT$impl$u20$rustc_session..session..Session$GT$::time::h5ecb4790ba66f75e (/home/soyeon/llm-rust/fuzz-rustc/target/x86_64-unknown-linux-gnu/release/fuzz_target+0xa10950c) (BuildId: 126b63024afe38292f0f3eb1564f13953796f655)
+    #52 0x55758397c756 in rustc_interface::passes::parse::h23e40d4ecc188e23 (/home/soyeon/llm-rust/fuzz-rustc/target/x86_64-unknown-linux-gnu/release/fuzz_target+0xa31b756) (BuildId: 126b63024afe38292f0f3eb1564f13953796f655)
+    #53 0x557583795568 in rustc_interface::queries::Queries::parse::h035c99275c34b9cf (/home/soyeon/llm-rust/fuzz-rustc/target/x86_64-unknown-linux-gnu/release/fuzz_target+0xa134568) (BuildId: 126b63024afe38292f0f3eb1564f13953796f655)
+    #54 0x5575833e1576 in rustc_interface::queries::_$LT$impl$u20$rustc_interface..interface..Compiler$GT$::enter::h77c93632637861fd (/home/soyeon/llm-rust/fuzz-rustc/target/x86_64-unknown-linux-gnu/release/fuzz_target+0x9d80576) (BuildId: 126b63024afe38292f0f3eb1564f13953796f655)
+    #55 0x55758340e1e8 in rustc_span::create_session_globals_then::h1392f3b73a5525f1 (/home/soyeon/llm-rust/fuzz-rustc/target/x86_64-unknown-linux-gnu/release/fuzz_target+0x9dad1e8) (BuildId: 126b63024afe38292f0f3eb1564f13953796f655)
+    #56 0x557583445f7f in std::sys_common::backtrace::__rust_begin_short_backtrace::h6d5d21aa194e1e7e (/home/soyeon/llm-rust/fuzz-rustc/target/x86_64-unknown-linux-gnu/release/fuzz_target+0x9de4f7f) (BuildId: 126b63024afe38292f0f3eb1564f13953796f655)
+    #57 0x55758341621c in std::panicking::try::do_call::he54f104dfa56bf64 rustc_driver_impl.bb929daa494bacdb-cgu.12
+    #58 0x5575834277ae in __rust_try rustc_driver_impl.bb929daa494bacdb-cgu.12
+    #59 0x557583416cc2 in core::ops::function::FnOnce::call_once$u7b$$u7b$vtable.shim$u7d$$u7d$::h0f64776fdc8d3b3b rustc_driver_impl.bb929daa494bacdb-cgu.12
+    #60 0x557591a99ca4 in _$LT$alloc..boxed..Box$LT$F$C$A$GT$$u20$as$u20$core..ops..function..FnOnce$LT$Args$GT$$GT$::call_once::h882bc548fde6b0fb /rustc/1a648b397dedc98ada3dd3360f6d661ec2436c56/library/alloc/src/boxed.rs:2016:9
+    #61 0x557591a99ca4 in _$LT$alloc..boxed..Box$LT$F$C$A$GT$$u20$as$u20$core..ops..function..FnOnce$LT$Args$GT$$GT$::call_once::h95e2a93069d2a4eb /rustc/1a648b397dedc98ada3dd3360f6d661ec2436c56/library/alloc/src/boxed.rs:2016:9
+    #62 0x557591a99ca4 in std::sys::pal::unix::thread::Thread::new::thread_start::hbe34808929695de9 /rustc/1a648b397dedc98ada3dd3360f6d661ec2436c56/library/std/src/sys/pal/unix/thread.rs:108:17
+    #63 0x55758324b93a in asan_thread_start(void*) /rustc/llvm/src/llvm-project/compiler-rt/lib/asan/asan_interceptors.cpp:225:31
+    #64 0x7f85b9535608 in start_thread /build/glibc-wuryBv/glibc-2.31/nptl/pthread_create.c:477:8
+    #65 0x7f85b9309352 in __clone /build/glibc-wuryBv/glibc-2.31/misc/../sysdeps/unix/sysv/linux/x86_64/clone.S:95
+
+NOTE: libFuzzer has rudimentary signal handlers.
+      Combine libFuzzer with AddressSanitizer or similar for better crash reports.
+SUMMARY: libFuzzer: deadly signal
+MS: 1 ChangeByte-; base unit: c508d5256e5bbc95850b38cac29e662eec3f757c
+0x66,0x6e,0x3c,0x26,0x6e,0x6e,0x3c,0x7c,0x26,0x65,0x7b,0x5f,0x2c,0x4a,0x7d,
+fn<&nn<|&e{_,J}
+artifact_prefix='artifacts/'; Test unit written to artifacts/crash-bdd5c4b714d2da9b7d1f20a71d65d74f2fa87967
+Base64: Zm48Jm5uPHwmZXtfLEp9
+stat::number_of_executed_units: 1179
+stat::average_exec_per_sec:     11
+stat::new_units_added:          191
+stat::slowest_unit_time_sec:    0
+stat::peak_rss_mb:              823
+INFO: exiting: 77 time: 6382s
